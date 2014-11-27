@@ -1,0 +1,35 @@
+Make sure the folder repo is on your desktop.
+
+» ADDING AND UPDATING PACKAGE IN REPOSITORY «
+
+1) If updating a previously created .deb file, place it on your desktop and uncompress it by opening Terminal:                      |cd desktop                      |ar -x [NameOfPackage].deb
+
+2) Create New [NameOfPackage] folder on the desktop
+
+3) Insert “path to files” folder(s) inside the [NameOfPackage] folder
+
+4) Create New DEBIAN folder inside the [NameOfPackage] folder
+
+5) Use  _control file (inside the _extras_ folder) as template to make a new control file, or modify the one obtained by uncompressing the .deb file. Save it inside the DEBIAN folder
+
+6) Clean .DS_Store files from the [NameOfPackage] folder with DS_Store Cleaner
+
+7) Open Terminal:                      |cd desktop                      |dpkg -b [NameOfPackage]
+
+8) Place [NameOfPackage].deb inside the files folder
+
+» UPDATING REPOSITORY ON CYDIA «
+
+9) Delete files Packages, Packages.gz, Packages.bz2, and Release.gpg
+
+10) Open Terminal:                     (|cd desktop)                      |cd repo                      |dpkg-scanpackages files / > Packages                      |bzip2 -fks Packages                      |gzip -f Packages                      |dpkg-scanpackages files / > Packages
+
+11) Update MD5Sums in the Release file (http://www.hashemall.com, remember to select MD5 algorithm)
+
+12) Open Terminal:                     (|cd desktop)                     (|cd repo)                      |gpg -abs -o Release.gpg Release                      |passphrase = ‘??? should be same as Mac if you listened to my advice’
+
+13) Use the _Depiction.php (no screenshots) or _Depiction_SS.php (with screenshots) file (both inside the _extras_ folder) as template to make a new [NameOfPackage].php file. Save it inside the depictions folder
+
+14) If you chose to add screenshots, use the _Screenshots.htm file as template to make a new [NameOfPackage].htm file. Save it inside the screenshots folder. Add screenshot image files as [NameOfPackage]1.png, [NameOfPackage]2.png, etc to the same folder
+
+15) Upload files to the root directory on your server (make sure to tick ‘Overwrite existing files’ before CHOOSE FILE): [NameOfPackage].deb, Packages, Packages.bz2, Packages.gz, Release, Release.gpg, [NameOfPackage].php, [NameOfPackage].htm, [NameOfPackage]1.png, [NameOfPackage]2.png, etc… 
