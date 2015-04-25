@@ -31,44 +31,66 @@ a:visited.test {
 #container {
 	margin-left: auto;
     margin-right: auto; 
-	width: 300px;
+	width: 100%;
 	padding: 0px
 }
 
-#packageHeader {
+#contentSingle {
 	padding: 10px;
 	margin-left: 0px;
 	margin-top: 10px;
-    border: 1px solid #a8a8a9 !important;;
-    background-color: #fff !important;;
-    
-    -webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	border-top: 0.5px solid #c4c4c6 !important;
+    border-bottom: 0.5px solid #c4c4c6 !important;
+    background-color: #fff !important;
+}
+
+#contentSingleYellow {
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+	border-top: 0.5px solid #c4c4c6 !important;
+    border-bottom: 0.5px solid #c4c4c6 !important;
+    background-color: #1ee67d !important;
+}
+
+#contentBottom {
+	padding: 10px;
+	margin-left: 0px;
+    border-bottom: 0.5px solid #c4c4c6 !important;
+    background-color: #fff !important;
+}
+
+#contentBottomYellow {
+	padding: 10px;
+	margin-left: 0px;
+    border-bottom: 0.5px solid #c4c4c6 !important;
+    background-color: #fdfdc8 !important;
+}
+
+#contentTop {
+	padding: 15px;
+	margin-left: 0px;
+	margin-top: 10px;
+    border-top: 0.5px solid #c4c4c6 !important;
+    background-color: #fff !important;
 }
 
 #compatibileDiv {
 	padding: 10px;
 	margin-left: 0px;
 	margin-top: 10px;
-    border: 1px solid #a8a8a9 !important;;
-    background-color: #1ee67d !important;;
-    
-    -webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+    border-bottom: : 0.5px solid #c4c4c6 !important;
+    border-top: 0.5px solid #c4c4c6 !important;
+    background-color: #99eeb2 !important;
 }
 
 #notCompatibileDiv {
 	padding: 10px;
 	margin-left: 0px;
 	margin-top: 10px;
-    border: 1px solid #a8a8a9 !important;;
-    background-color: #ebb5b5 !important;;
-    
-    -webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+    border-bottom: : 1px solid #c4c4c6 !important;
+    border-top: 1px solid #c4c4c6 !important;
+    background-color: #ebb5b5 !important;
 }
 
 h2.repoDescriptionHeader {
@@ -86,13 +108,14 @@ h2.repoScreenshotsHeader {
 
 h3.textHeaderLabel {
 	font-size: 17px;
+	font-weight: 400;
 	text-align: center;
 	display: inline;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
-hr { display: block; height: 1px;
-    border: 0; border-top: 1px solid #a8a8a9 !important;;
+hr { display: block; height: 0.5px;
+    border: 0; border-top: 0.5px solid #c4c4c6 !important;;
     margin: 1em 0; padding: 0; }
 
 img.repoDescription{
