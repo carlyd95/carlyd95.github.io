@@ -15,9 +15,9 @@ push(@INC,$dpkglibdir);
 require './dpkg-gettext.pl';
 textdomain("dpkg-dev");
 
-my %kmap= (optional         => 'suggests',
-	   recommended      => 'recommends',
-	   class            => 'priority',
+my %kmap= (optional	    => 'suggests',
+	   recommended	    => 'recommends',
+	   class	    => 'priority',
 	   package_revision => 'revision',
 	  );
 
@@ -44,12 +44,12 @@ my @fieldpri= ('Package',
 	       'Description',
 	       'Origin',
 	       'Bugs',
-               'Name',
-               'Author',
-               'Homepage',
-               'Website',
-               'Depiction',
-               'Icon'
+	       'Name',
+	       'Author',
+	       'Homepage',
+	       'Website',
+	       'Depiction',
+	       'Icon'
 	      );
 
 # This maps the fields into the proper case
@@ -58,10 +58,10 @@ my %field_case;
 
 use Getopt::Long qw(:config bundling);
 
-my %options = (help            => sub { &usage; exit 0; },
-	       version         => \&version,
-	       udeb            => 0,
-	       arch            => undef,
+my %options = (help	       => sub { &usage; exit 0; },
+	       version	       => \&version,
+	       udeb	       => 0,
+	       arch	       => undef,
 	       multiversion    => 0,
 	      );
 
@@ -77,11 +77,11 @@ sub usage {
 "Usage: %s [<option> ...] <binarypath> <overridefile> [<pathprefix>] > Packages
 
 Options:
-  -u, --udeb               scan for udebs.
-  -a, --arch <arch>        architecture to scan for.
-  -m, --multiversion       allow multiple versions of a single package.
-  -h, --help               show this help message.
-      --version            show the version.
+  -u, --udeb		   scan for udebs.
+  -a, --arch <arch>	   architecture to scan for.
+  -m, --multiversion	   allow multiple versions of a single package.
+  -h, --help		   show this help message.
+      --version 	   show the version.
 "), $0;
 }
 
@@ -101,9 +101,9 @@ else {
 push @find_args, '-follow';
 my ($binarydir, $override, $pathprefix) = @ARGV;
 -d $binarydir or die sprintf(_g("Binary dir %s not found"),
-                             $binarydir)."\n";
+			     $binarydir)."\n";
 -e $override or die sprintf(_g("Override file %s not found"),
-                            $override)."\n";
+			    $override)."\n";
 
 $pathprefix = '' if not defined $pathprefix;
 
@@ -120,7 +120,7 @@ my %packages;
 my $find_h = new IO::Handle;
 open($find_h,'-|','find',"$binarydir/",@find_args,'-print')
      or die sprintf(_g("Couldn't open %s for reading: %s"),
-                    $binarydir, $!)."\n";
+		    $binarydir, $!)."\n";
 FILE:
     while (<$find_h>) {
 	chomp;
@@ -228,7 +228,7 @@ while (<$override_fh>) {
 		   my $debmaint= $$package{Maintainer};
 		   if (!grep($debmaint eq $_, split(m:\s*//\s*:, $oldmaint))) {
 			push(@changedmaint,
-			     "  $p (package says $$package{Maintainer}, not $oldmaint)\n");
+			     "	$p (package says $$package{Maintainer}, not $oldmaint)\n");
 		   } else {
 			$$package{Maintainer}= $newmaint;
 		   }
@@ -251,7 +251,7 @@ my @missingover=();
 my $records_written = 0;
 for my $p (sort keys %packages) {
     if (not defined($overridden{$p})) {
-        push(@missingover,$p);
+	push(@missingover,$p);
     }
     for my $package (@{$packages{$p}}) {
 	 my $record= "Package: $p\n";
@@ -269,24 +269,24 @@ close(STDOUT) or die sprintf(_g("Couldn't close stdout: %s"), $!)."\n";
 my @spuriousover= grep(!defined($packages{$_}),sort keys %overridden);
 
 &writelist(_g("** Packages in archive but missing from override file: **"),
-           @missingover);
+	   @missingover);
 if (@changedmaint) {
     print(STDERR
-          _g(" ++ Packages in override file with incorrect old maintainer value: ++")."\n",
-          @changedmaint,
-          "\n") || die $!;
+	  _g(" ++ Packages in override file with incorrect old maintainer value: ++")."\n",
+	  @changedmaint,
+	  "\n") || die $!;
 }
 if (@samemaint) {
     print(STDERR
-          _g(" -- Packages specifying same maintainer as override file: --")."\n",
-          @samemaint,
-          "\n") || die $!;
+	  _g(" -- Packages specifying same maintainer as override file: --")."\n",
+	  @samemaint,
+	  "\n") || die $!;
 }
 if (@spuriousover) {
     print(STDERR
-          _g(" -- Packages in override file but not in archive: --")."\n",
-          @spuriousover,
-          "\n") || die $!;
+	  _g(" -- Packages in override file but not in archive: --")."\n",
+	  @spuriousover,
+	  "\n") || die $!;
 }
 
 printf(STDERR _g(" Wrote %s entries to output Packages file.")."\n", $records_written) || die $!;
