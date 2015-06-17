@@ -1,0 +1,11 @@
+Package: com.jakesbutthole.anal
+Name: anal
+Depends: 
+Architecture: iphoneos-arm
+Description: An awesome tool of some sort!!
+Maintainer: jakesbutthole
+Author: jakesbutthole
+Section: System
+Tag: role::hacker
+Version: 0.0.1-1
+Installed-Size: 52

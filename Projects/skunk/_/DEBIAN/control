@@ -1,0 +1,10 @@
+Package: skunk
+Name: Skunk
+Depends: 
+Architecture: iphoneos-arm
+Description: An awesome application!
+Maintainer: carlyd95
+Author: carlyd95
+Section: Utilities
+Version: 0.0.1-15
+Installed-Size: 380
