@@ -1,7 +1,7 @@
-#include "include/stdio.h"
-#include "include/stdlib.h"
-#include "include/string.h"
-#include "theos/include/readline/readline.h"
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
+#include "readline/readline.h"
 
 int main(int argc, char **argv, char **envp) {
 	printf("Jakes Motto\n\n");
