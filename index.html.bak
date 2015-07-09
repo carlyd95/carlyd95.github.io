@@ -14,12 +14,12 @@
 	<body>
 		<div id="container">
 		
-		      
+			<div id="packageHeader">
 			<center>
 				<img class="repoDescription" src="newdepics/images/repoLogo.png"><br>
 				<h2 class="repoDescriptionHeader">carlyd95</h3>
 		       </center>
-		      
+			</div><!--Close Package Header Div-->
 		      
 
 			<div id="packageHeader">
