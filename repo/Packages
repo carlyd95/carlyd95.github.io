@@ -1,0 +1,1400 @@
+Package: com.carly-d95.abrzeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.abrzeppelinlogo_1.1_iphoneos-arm.deb
+Size: 9476
+MD5sum: 86736702bb790cf233c40fbae604048a
+Description: Zeppelins logo for the artist August Burns Red for /u/jacobjs93 and /u/phillydwg18!
+Name: ABR Zeppelin Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carly-d95.bearszeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.bearszeppelinlogo_1.1_iphoneos-arm.deb
+Size: 5592
+MD5sum: 7a59e7e6816c42815c0374ac70f82ee4
+Description: Zeppelins logo for the Bears for /u/beast164
+Name: Bears Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carly-d95.bettermterminalicon
+Version: 1.2
+Section: Themes
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: winterboard
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.bettermterminalicon_1.2_iphoneos-arm.deb
+Size: 5098
+MD5sum: 4f4bb25950b28910662f640264e6d92c
+Description: Better Icon for MTerminal by lordscottland.
+Name: Better MTerminal Icon
+Author: Carly-D95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carly-d95.blackishturquoisebitesmstheme
+Version: 2.3
+Section: Themes (biteSMS)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: bitesms
+Conflicts: com.sull.blackishgreenbitesmstheme
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.blackishturquoisebitesmstheme_2.3_iphoneos-arm.deb
+Size: 17260
+MD5sum: d2eb3e4c1c2ffe7879cad6bae17d23d0
+Description: Black and Turquoise biteSMS Theme for My Love! 😘😍
+Name: Blackish Turquoise biteSMS Theme
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: 
+
+Package: com.carly-d95.brigadeszeppelinlogo
+Version: 1.2
+Section: Addons (Zeppelin)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.brigadeszeppelinlogo_1.2_iphoneos-arm.deb
+Size: 7432
+MD5sum: a07ffd0be64e9e642d0d36a7d7b63dd1
+Description: Zeppelins logo for SC band Brigades!!! Check them out!!!
+Name: Brigades Zeppelin Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: 
+
+Package: com.carly-d95.controllers4all
+Version: 1.1.2
+Section: Tweaks
+Maintainer: Carly-D95 <n!>
+Depends: mobilesubstrate, ch.ringwald.btstack (>= 0.8-3), preferenceloader, firmware (>= 7.0), com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.controllers4all_1.1.2_iphoneos-arm.deb
+Size: 282038
+MD5sum: 34fcc0bf0e0bb409e90921cd188a5840
+Description: PS3 controller support for a ton of games, no configuration needed!
+Name: Controllers4All
+Author: Carly-D95 <n!>
+
+Package: com.carly-d95.dwlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.dwlogo_1.0_iphoneos-arm.deb
+Size: 4606
+MD5sum: 74cb5df33fb5923b1306953c5e96a311
+Description: Doctor Who Logo
+Name: DW Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: 
+
+Package: com.carly-d95.kingszeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.kingszeppelinlogo_1.1_iphoneos-arm.deb
+Size: 8248
+MD5sum: 1682f8a4baf189d318f83e2e3143f811
+Description: Zeppelins logo for the artist Kings -resized
+Name: Kings Zeppelin Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carly-d95.mmflogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.mmflogo_1.1_iphoneos-arm.deb
+Size: 7906
+MD5sum: 9317513a77a44fec11cce443f0fb131c
+Description: Memphis May Fire Zeppelin Logo
+Name: MMF Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: 
+
+Package: com.carly-d95.pangubootrespring
+Version: 1.1
+Section: Addons (Bootlogo) Themes
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.pangubootrespring_1.1_iphoneos-arm.deb
+Size: 664
+MD5sum: 84740a58827f42d3ab6e67cd1bc7b531
+Description: Pangu Boot & Respring Logo
+Name: Pangu Boot Respring
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: 
+
+Package: com.carly-d95.pangurespringlogo
+Version: 1.0
+Section: Themes
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.carly-d95.pangubootlogo, winterboard
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.pangurespringlogo_1.0_iphoneos-arm.deb
+Size: 20464
+MD5sum: 2d2facd896afe10108104ab71d28652a
+Description: Pangu Respring Logo
+Name: Pangu Respring Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: 
+
+Package: com.carly-d95.ptvlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: Carly-D <dcarltondunlap@hotmail.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.ptvlogo_1.1_iphoneos-arm.deb
+Size: 9422
+MD5sum: 69dff92293493747f891fdc6ffe073c7
+Description: PTV Carrier Logo
+Name: PTV Logo
+Author: Carly-D <dcarltondunlap@hotmail.com>
+Depiction: 
+
+Package: com.carly-d95.raptorszeppelinlogo
+Version: 1.2
+Section: Addons (Zeppelin)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.raptorszeppelinlogo_1.2_iphoneos-arm.deb
+Size: 7072
+MD5sum: 1a1c109eee16def5a92359569ba2adc0
+Description: Zeppelins logo for Toronto Raptors for /u/bdokes99! -fixed sizing
+Name: Raptors Zeppelin Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carly-d95.secret
+Version: 1.0
+Section: Tweaks
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: openssh
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.secret_1.0_iphoneos-arm.deb
+Size: 1074
+MD5sum: e6b0c02232fc8620e014555a527cbb2a
+Description: ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+Name: Secret
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: 
+
+Package: com.carly-d95.unimaginelogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.unimaginelogo_1.1_iphoneos-arm.deb
+Size: 11046
+MD5sum: 20d4752a07ab5258e9c68dc2a1685911
+Description: •Unimagine Logo (Hands like Houses)
+Name: Unimagine Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: http://m.flickr.com/photos/115992707@N03/12231636195/lightbox/
+
+Package: com.carly-d95.vansotwlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.vansotwlogo_1.1_iphoneos-arm.deb
+Size: 14082
+MD5sum: 7f501abb2fb362f4c1ce55b8e6610ed5
+Description: •Vans OTW Logo (Red/white)
+Name: Vans OTW Logo
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: http://m.flickr.com/photos/115992707@N03/12231636195/lightbox/
+
+Package: com.carly-d95.vibrate2s
+Version: 1.1
+Section: Launch Daemon
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Depends: org.thebigboss.cutils
+Architecture: iphoneos-arm
+Filename: .//debs/com.carly-d95.vibrate2s_1.1_iphoneos-arm.deb
+Size: 980
+MD5sum: 79470cfafda830acac2ff8ba2ab72876
+Description: Vibrate every 2s
+Name: vibrate300s
+Author: Carly-D95 <dcarltondunlap@me.com>
+Depiction: 
+
+Package: com.carlyd95.aazeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.aazeppelinlogo_1.0_iphoneos-arm.deb
+Size: 5142
+MD5sum: 45a61fa8c102f2a72834aa29652437b8
+Description: Zeppelins logo for Asking Alexandria!
+Name: AA Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.abcd217zeppelinlogo
+Version: 1.3
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.abcd217zeppelinlogo_1.3_iphoneos-arm.deb
+Size: 4332
+MD5sum: fc38a1abd092828a4cc50c3e88901857
+Description: Zeppelin logo idea for /u/abcd217!
+Name: Abcd217 Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.alesanazeppelin
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.alesanazeppelin_1.0_iphoneos-arm.deb
+Size: 7900
+MD5sum: 75c24d7236833e633e705bdd1220f905
+Description: Zeppelin logo for NC band Alesana!
+Name: Alesana Zeppelin
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.applemusiciconsucks
+Version: 1.0
+Section: Themes
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: winterboard
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.applemusiciconsucks_1.0_iphoneos-arm.deb
+Size: 7484
+MD5sum: 0b3fd467671eeb8fd1deea60fb237a55
+Description: 8.0-8.3 Music Icon for 8.4
+Name: Apple Music Icon Sucks
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.attzeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.attzeppelinlogo_1.1_iphoneos-arm.deb
+Size: 6422
+MD5sum: d3c18ce0a1b22516153b089326d78805
+Description: Zeppelins logo for the artist Lady Gaga for /u/frenchykd!
+Name: AT T Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.avatarelementszeppelin
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.avatarelementszeppelin_1.0_iphoneos-arm.deb
+Size: 14572
+MD5sum: d327b1e4492b1bb4fd5e8f3c8e9fd92d
+Description: Avatar: Four Elements Zeppelin logo!
+Name: Avatar Elements Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.beartoothzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.beartoothzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4900
+MD5sum: 78963025aa1abead684a6f75fd745847
+Description: Zeppelin logo for the Beartooth! My buddy Evan loves Beartooth!
+Name: Beartooth Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.beatleszeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.beatleszeppelinlogo_1.0_iphoneos-arm.deb
+Size: 5608
+MD5sum: 99364492679830402c2e9baeb555e272
+Description: Zeppelin logo for The Beatles for /u/vintagesoul9!
+Name: Beatles Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.bowtiezeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.bowtiezeppelinlogo_1.0_iphoneos-arm.deb
+Size: 7344
+MD5sum: f86e45a4c1a444e11727926033eb6184
+Description: Bow tie Zeppelins logo for /u/hyperakt1v!
+Name: Bowtie Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.broncoszeppelinlogo
+Version: 1.2
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.broncoszeppelinlogo_1.2_iphoneos-arm.deb
+Size: 8662
+MD5sum: 053113b5d1fd92ac92edc3e542c683ec
+Description: Zeppelin logo for Denver Broncos for /u/Chaserjim!
+Name: Broncos Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.burtonzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.burtonzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 8724
+MD5sum: a39c8b899986683181e54c40f232438c
+Description: Burton Zeppelins logo for /u/lozneanu! 🏂🏂🏂🏂🏂🏂🏂🏂🏂🏂🏂🏂🏂🏂🏂
+Name: Burton Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.carlyd95sectionicon
+Version: 1.1
+Section: carlyd95
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.carlyd95sectionicon_1.1_iphoneos-arm.deb
+Size: 514290
+MD5sum: 38366cbee3a620a31f37e99ee1fb6cdd
+Description: Icons for custom repo sections.
+Name: Section Icons
+Author: carlyd95 <dcarltondunlap@me.com>
+Depiction: http://carlyd95.github.io/repo/
+
+Package: com.carlyd95.catempirezeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.catempirezeppelinlogo_1.1_iphoneos-arm.deb
+Size: 4588
+MD5sum: 5c2ac68351f0d093a7ca6d4a1c3aca64
+Description: Zeppelin logo for Cat Empire for /u/purple_persona!
+Name: Cat Empire Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.crossfaithzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.crossfaithzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 6306
+MD5sum: dcd2b809330ac66043bef858ed6056b7
+Description: Zeppelin logo for Crossfaith for /u/monadion
+Name: Crossfaith Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.cydiatimeout6
+Version: 1.0
+Section: System
+Maintainer: carlyd95 <chickenmatt5@icloud.com>
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.cydiatimeout6_1.0_iphoneos-arm.deb
+Size: 778
+MD5sum: b26035d3c544c148e6c23e4f8d63b6ee
+Description: Force Cydia to only spend 6s seconds trying to refresh each source. Cuts down on overall refresh time.
+Name: Cydia Timeout 6
+Author: carlyd95 <chickenmatt5@icloud.com>
+Depiction: 
+
+Package: com.carlyd95.dailytextscript
+Version: 2.4
+Section: JW
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: lynx, com.innoying.sbutils, gawk
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.dailytextscript_2.4_iphoneos-arm.deb
+Size: 1976
+MD5sum: dd071b9137ace4ae050b3adf47616a0a
+Description: Awesome script that pulls daily text from http://wol.jw.org/en/ each day at 5:30 AM and saves it.  The text can be viewed at any time running by "txt" in terminal or if you add "txt" as a command with activatecommand!
+Name: Daily Text Script
+Author: carlyd95 & moshed <dcarltondunlap@me.com>
+Depiction: http://carlyd95.github.io/repo/depics/dailytext.html
+
+Package: com.carlyd95.deadpoolzeppelinlogo
+Version: 1.5
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.deadpoolzeppelinlogo_1.5_iphoneos-arm.deb
+Size: 9914
+MD5sum: 2581a3c0aa1caec96116e1df5831b49b
+Description: Zeppelin logo for Dr. Manhattan for /u/the_moon_walker!
+Name: DeadPool Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.deathlyhallowszeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.deathlyhallowszeppelinlogo_1.1_iphoneos-arm.deb
+Size: 5428
+MD5sum: 5ef00451f992546520c479cc0efdeaf3
+Description: Zeppelin logo for Harry Potter Deathly Hallows logo for /u/DJWLJR and /u/thepukingdwarf
+Name: Deathly Hallows Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.diamondzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.diamondzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 7664
+MD5sum: d589d268e0ff6305a74cbc892239b0a9
+Description: Zeppelin logo for Diamond Supply Co. for /u/ethanbanker2428!
+Name: Diamond Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.discoveringthewaterfrontbootlogoandrespringlogo
+Version: 2.2
+Section: Addons (BootLogo)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.zaxdo.animate8
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.discoveringthewaterfrontbootlogoandrespringlogo_2.2_iphoneos-arm.deb
+Size: 33559562
+MD5sum: 143a32c461c963583df0964e856874d3
+Description: BootLogo and Respring Logo for album Discovering The Waterfront by Silverstein.  🎶You taught my heart A sense I never knew I had I can't forget The times that I was lost and depressed from the awful truth How do you do it? You're my heroine🎶
+Name: Discovering The Waterfront BootLogo and Respring Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.disneybootlogos
+Version: 1.0
+Section: BootLogos
+Maintainer: Carly-D95 <dcarltondunlap@hotmail.com>
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.disneybootlogos_1.0_iphoneos-arm.deb
+Size: 65290452
+MD5sum: c61f30af78d0cff60c95de73dd4a7678
+Description: Disney BootLogos for Madawin!!! 😍 Madawin will you make me potatoes?
+Name: Disney BootLogos
+Author: Carly-D95 <dcarltondunlap@hotmail.com>
+
+Package: com.carlyd95.disneyrespringlogo
+Version: 3.2
+Section: Themes
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: winterboard
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.disneyrespringlogo_3.2_iphoneos-arm.deb
+Size: 696624
+MD5sum: 5deb39925e1f8de5af02b9decfd2e4a1
+Description: Olaf and Walt Disney Respring Logo for My Love! 😘😍 Madawin!!!! Big Olaf this time! ⛄️⛄️⛄️⛄️
+Name: Disney Respring Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io
+
+Package: com.carlyd95.dodgerszeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.dodgerszeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4538
+MD5sum: 8996d5cae1739048d774182dd1209623
+Description: Zeppelin logo for the Dodgers for /u/Q_therealness!
+Name: Dodgers Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.doombootlogo
+Version: 1.4
+Section: Addons (BootLogo)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.zaxdo.animate8
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.doombootlogo_1.4_iphoneos-arm.deb
+Size: 53384
+MD5sum: aa63361da6be9b38ed5a47f08e273337
+Description: Doom BootLogo for /u/LOUiS59!
+Name: DOOM BootLogo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.dr
+Version: 1.2
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.dr_1.2_iphoneos-arm.deb
+Size: 4432
+MD5sum: ce92c21f47af640e1f47f97934a374f6
+Description: Zeppelin logo for Dr. Manhattan for /u/manhattan13!
+Name: Dr. Manhattan Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.dr.manhattanzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.dr.manhattanzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4280
+MD5sum: 5fa86946def9a861b9900f4ea96eb32c
+Description: Zeppelin logo for Dr. Manhattan for /u/manhattan13!
+Name: Dr. Manhattan Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.dragonballzeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.dragonballzeppelinlogo_1.1_iphoneos-arm.deb
+Size: 5612
+MD5sum: fc743d897bdee41ba2101b4718979792
+Description: Dragon Ball Zeppelin logo for /u/mangaka22!
+Name: Dragon Ball Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.duelozeppelinlogo
+Version: 1.4
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.duelozeppelinlogo_1.4_iphoneos-arm.deb
+Size: 8068
+MD5sum: 656c99c1e5d05d9a27064a138d92559b
+Description: Zeppelins logo for Duelo for /u/beast164!
+Name: Duelo Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.dukezeppelinlogo
+Version: 1.4
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.dukezeppelinlogo_1.4_iphoneos-arm.deb
+Size: 6846
+MD5sum: 3211ffe9157dbbbb635fbe9139cbece1
+Description: Zeppelins logo for Duke for /u/jayskin!
+Name: Duke Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.emarosazeppelinlogo
+Version: 1.7
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.emarosazeppelinlogo_1.7_iphoneos-arm.deb
+Size: 5628
+MD5sum: 2e35ef8f0f6472f6511d96f0449bf27c
+Description: Zeppelin logo for the artist Emarosa! Awesome band! 🎶Tailored sheets to fix this dirty bed!🎶
+Name: Emarosa Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.emoji83font
+Version: 0.1-1
+Section: Fonts (BytaFont 2)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.bytafont.bytafont2
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.emoji83font_0.1-1_iphoneos-arm.deb
+Size: 54730278
+MD5sum: 1e3705b719d41d0f7cf428620fd8b65e
+Description: BytaFont 2 font for Poomsmart's Emoji83 tweak!
+Name: Emoji 8.3 Font
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.ericprydzzeppelin
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.ericprydzzeppelin_1.0_iphoneos-arm.deb
+Size: 6070
+MD5sum: 2fbc7e6f38750fce994207333d5e0626
+Description: Eric Prydz Zeppelin Logo!
+Name: Eric Prydz Zeppelin
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.fakemaczeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.fakemaczeppelinlogo_1.1_iphoneos-arm.deb
+Size: 9662
+MD5sum: 5d1d69a88e28aa77b528e2b901e564aa
+Description: Zeppelin logo for Close, Minimize and maximize from OSX for /u/instagib66
+Name: Fake Mac Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.gazettezeppelinlog
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.gazettezeppelinlog_1.0_iphoneos-arm.deb
+Size: 4762
+MD5sum: 402f354210f774f790faee91b37dd2b2
+Description: Zeppelin logo for the Gazette for /u/QX73!
+Name: Gazette Zeppelin Log
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.gumbazeppelin
+Version: 1.3
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.gumbazeppelin_1.3_iphoneos-arm.deb
+Size: 11204
+MD5sum: 5485197a47d9a63a928ec290d32d60b4
+Description: Gumba Zeppelin Logo! 🍄
+Name: Gumba Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.intocablezeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.intocablezeppelinlogo_1.1_iphoneos-arm.deb
+Size: 6012
+MD5sum: 4f1740dd91413e073d9edd7e083552c1
+Description: Zeppelins logo for Intocable for /u/beast164
+Name: Intocable Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.jetlifezeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.jetlifezeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4874
+MD5sum: fcbcd2d57e95882779bb91d8ca3f6567
+Description: Zeppelin logo for Jet Life for /u/rawfishdanger!
+Name: Jet Life Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.jigglypuffzeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.jigglypuffzeppelinlogo_1.1_iphoneos-arm.deb
+Size: 9072
+MD5sum: b37f317824f11656e6a3ac65dda8d2e3
+Description: Jiggly Puff Zeppelin Logo!
+Name: Jiggly Puff Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Depiction: http://carlyd95.github.io
+
+Package: com.carlyd95.jworgquickactivatorglyph
+Version: 1.0
+Section: JW
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.jworgquickactivatorglyph_1.0_iphoneos-arm.deb
+Size: 76802
+MD5sum: 6dcbbf28aaa43e9a4b458ea31e3b0c51
+Description: "JW.ORG" glyph for QuickActivator for Daily Text Script!
+Name: JW.ORG QuickActivator Glyph
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://jw.org/en/
+
+Package: com.carlyd95.jwzeppelinlogo
+Version: 1.4-5
+Section: JW
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.jwzeppelinlogo_1.4-5_iphoneos-arm.deb
+Size: 7294
+MD5sum: fa4e6ee09d1dbffca7d9a44ef73614f7
+Description: Zeppelins logo for JW.org for Jehovah's Witnesses!  Jehovah’s Witnesses—Who Are We?  We come from hundreds of ethnic and language backgrounds, yet we are united by common goals. Above all, we want to honor Jehovah, the God of the Bible and the Creator of all things. We do our best to imitate Jesus Christ and are proud to be called Christians. Each of us regularly spends time helping people learn about the Bible and God’s Kingdom. Because we witness, or talk, about Jehovah God and his Kingdom, we are known as Jehovah’s Witnesses.  Explore our site. Read the Bible online. Learn more about us and our beliefs.  Please click "More Information to visit JW.org! 😊💼👔
+Name: JW.ORG Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://jw.org/en/
+
+Package: com.carlyd95.ladisputezeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.ladisputezeppelinlogo_1.0_iphoneos-arm.deb
+Size: 6422
+MD5sum: 3dc22825ce1471915e17d756176aba0d
+Description: Zeppelin logo for La Dispute for /u/iwartchYOUsleep!
+Name: La Dispute Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.ladygagazeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.ladygagazeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4816
+MD5sum: 9624a470b38fa914ee0ff9d55b175286
+Description: Zeppelins logo for the artist Lady Gaga for /u/xhollister91x!
+Name: Lady Gaga Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.lawrencearmszeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.lawrencearmszeppelinlogo_1.1_iphoneos-arm.deb
+Size: 9378
+MD5sum: d6a8a7d2ec1caa231d47b427f225d564
+Description: Zeppelin logo for Lawrence Arms for /u/RUIN570!
+Name: Lawrence Arms Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.lithiumbwlb
+Version: 1.0
+Section: Addons (Lithium)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: lithium
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.lithiumbwlb_1.0_iphoneos-arm.deb
+Size: 1162
+MD5sum: e02cef80037b54eb969826a9773c96fa
+Description: Because I didn't like the green or red when charging or low battery! It's always black or white! ⚫️⚪️😄
+Name: Lithium B&W LB
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.mclarenzeppelinlogo
+Version: 1.1-1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.mclarenzeppelinlogo_1.1-1_iphoneos-arm.deb
+Size: 8122
+MD5sum: 8b07efffce5256395844c9a89ac609bc
+Description: McLaren Zeppelin Logo 🚗🚙🚕
+Name: McLaren Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.michiganzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.michiganzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 6906
+MD5sum: c6e4fa578e1fe2d3ca560b3923c0948f
+Description: Zeppelin logo for The University of Michigan for /u/dealaus!
+Name: Michigan Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.motherseriesemblem
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.motherseriesemblem_1.0_iphoneos-arm.deb
+Size: 4452
+MD5sum: 4466c86e972fc88d16b6e1222c9d67e6
+Description: Mother series emblem Zeppelin logo!
+Name: Mother Series Emblem Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.mtrs2ft
+Version: 0.0.1-6-1
+Section: System
+Maintainer: carlyd95
+Depends: 
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.mtrs2ft_0.0.1-6-1_iphoneos-arm.deb
+Size: 2148
+Installed-Size: 52
+MD5sum: ac6a7bc42561b72bceb25ed00787c8af
+Description: An awesome tool to convert meters to feet and inches.
+Name: mtrs2ft
+Author: carlyd95
+
+Package: com.carlyd95.mycmdivatorcmds
+Version: 12-1-14
+Section: Terminal Support
+Maintainer: Carlyd95 <dcarltondunlap@me.com>
+Depends: net.joedj.cmdivator
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.mycmdivatorcmds_12-1-14_iphoneos-arm.deb
+Size: 1160
+MD5sum: 06a004c602db6f64d7d33ae883959259
+Description: Back up of Cmdivator Cmds 12-1-14
+Name: My Cmdivator Cmds
+Author: Carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.narutozeppelinlogo
+Version: 1.5
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.narutozeppelinlogo_1.5_iphoneos-arm.deb
+Size: 5650
+MD5sum: b78ba2831fc0cd4f248509fefc4bd5a1
+Description: Zeppelin logo for Naruto for /u/shadowtheemo
+Name: Naruto Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.neelixzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.neelixzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 5702
+MD5sum: d11fdbc13a199a91de966f2f01fe724a
+Description: Zeppelins logo for Neelix for /u/deluxx3!
+Name: Neelix Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.nismozeppelinlogo
+Version: 1.4
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.nismozeppelinlogo_1.4_iphoneos-arm.deb
+Size: 7248
+MD5sum: ab1a40f0407666b1a22479b8b43e3a7d
+Description: Zeppelin logo for Cat Nismo for /u/_hobojoe_!
+Name: Nismo Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.noahsarkzeppelinlog
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.noahsarkzeppelinlog_1.1_iphoneos-arm.deb
+Size: 4796
+MD5sum: 379f59f2329c25b066b536fda52d9270
+Description: Zeppelin logo for Noah's Ark for /u/luukscheepers!
+Name: Noah's Ark Zeppelin Log
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.obeyzeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.obeyzeppelinlogo_1.1_iphoneos-arm.deb
+Size: 6806
+MD5sum: 2789c3ddb3c1578d5bc9aff84dbf0e44
+Description: Zeppelin logo for Obey for /u/ethanbanker2428!
+Name: OBEY Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.omzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.omzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4294
+MD5sum: a98b9ef4eeffb221f58df66b3ae49a7f
+Description: OM symbol zeppelin logo for /u/theCIA_!
+Name: OM Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.opticzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.opticzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 6888
+MD5sum: 56dd9a010a049d9d3512c4d710168a90
+Description: Zeppelin logo for /u/pholyuhm!
+Name: Optic Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.outsidersmarkzeppelin
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.outsidersmarkzeppelin_1.1_iphoneos-arm.deb
+Size: 5008
+MD5sum: c19120af1501a58f91954df137cc93e7
+Description: Zeppelin logo for the Outsiders Mark in Dishonored! 🎮
+Name: Dishonored Outsider's Mark Zeppelin
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.ovorespringlogobootlogo
+Version: 1.5
+Section: Addons (BootLogo)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: winterboard, com.zaxdo.animate8
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.ovorespringlogobootlogo_1.5_iphoneos-arm.deb
+Size: 1329208
+MD5sum: 8b1d10dd185c798b8d27b53bb869972c
+Description: OVO respring logo for /u/_KP24!  -added fading
+Name: OVO Respring Logo & Bootlogo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.ovoxoowlzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.ovoxoowlzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 6906
+MD5sum: d6086159307b2adb18bf36aa5463c7ed
+Description: Zeppelin logo for OVOXO Owl for /u/mymonkeyballs!
+Name: OVOXO Owl Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.pattazeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.pattazeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4758
+MD5sum: 0d5a8cb176f311118fd00a37f8de6c8c
+Description: Patta respring logo for /u/luukscheepers!
+Name: Patta Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.rabbitzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.rabbitzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 7052
+MD5sum: 2391c1d0e8b3e9946d60365051ff50d6
+Description: Zeppelins logo for drooling rabbit logo for /u/Lovely_sin!
+Name: Rabbit Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.redditrespringbootlogo
+Version: 1.0
+Section: Addons (BootLogo)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: winterboard
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.redditrespringbootlogo_1.0_iphoneos-arm.deb
+Size: 13514
+MD5sum: 7bd5cbce273946d84201eeeb8a5f9a5f
+Description: Respring and Bootlogo for Reddit!
+Name: Reddit Respring Boot Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.samuraiswordzeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.samuraiswordzeppelinlogo_1.1_iphoneos-arm.deb
+Size: 11982
+MD5sum: c4accef1c149eb305b1c2d5f848e0208
+Description: Samurai sword zeppelin logo for /u/juanj760
+Name: Samurai Sword Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.secretszeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.secretszeppelinlogo_1.0_iphoneos-arm.deb
+Size: 9034
+MD5sum: e8477abdcdd111eddeb330ebdddee121
+Description: Zeppelins logo for Secrets for /u/jedijeezus!
+Name: Secrets Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.sendrsa
+Version: 2.3.0-1
+Section: Terminal Support
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: openssh
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.sendrsa_2.3.0-1.deb
+Size: 1392
+MD5sum: c08021498b3fa961c60d0a15aba16109
+Description: simple command-line utility to send your rsa keys to a trusted remote device in order to ssh to the remote device without being prompted for the password.      All you have to do is type the address for the remote device. And it will make rsa keys for you if you have none and choose to do so. -now checks to see if you have a .ssh folder -checks if you have public keys
+Name: sendrsa
+Author: carlyd95 <dcarltondunlap@me.com>
+Depiction: http://carlyd95.github.io/repo/depics/sendrsa.html
+Icon: http://carlyd95.github.io/repo/depics/images/sendrsa.png
+
+Package: com.carlyd95.silversteinzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.silversteinzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 6558
+MD5sum: 935c4a74793ab0a46d2167a88141ea84
+Description: Zeppelin logo for the artist Silverstein! Awesome band! 🎶You lie through your teeth!🎶
+Name: silverstein Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.ssbzeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.ssbzeppelinlogo_1.1_iphoneos-arm.deb
+Size: 4812
+MD5sum: 09118f14445aff4727808c4ccd9dc406
+Description: SSB Zeppelin Logo!🎮
+Name: SSB Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.starwarszeppelinlogopack
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.starwarszeppelinlogopack_1.1_iphoneos-arm.deb
+Size: 10956
+MD5sum: cf9c2588e25db71ad7a050b9a7943807
+Description: Star Wars, Galactic Empire, Rebel Alliance, And Jedi Force Zeppelin logos!
+Name: Star Wars Zeppelin Logo Pack
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.structureszeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.structureszeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4084
+MD5sum: fd9d79b76193bc1a35aa24808f6f54ec
+Description: Zeppelins logo for the artist Structures for /u/eoNcs!
+Name: Structures Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.tardiszeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.tardiszeppelinlogo_1.0_iphoneos-arm.deb
+Size: 5590
+MD5sum: 231fb62b36f754dc48a284d45bc16973
+Description: Zeppelin logo for Tardis for /u/wotcherself and /u/psyco!
+Name: Tardis Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.terminalprofiles
+Version: 2.1
+Section: Terminal Support
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.terminalprofiles_2.1_iphoneos-arm.deb
+Size: 1186
+MD5sum: 69964ff0a95e6fa58c362c3b82c0245e
+Description: custom profile and .profile for mobile
+Name: Terminal Profiles
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io
+
+Package: com.carlyd95.u.s.flagzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.u.s.flagzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4824
+MD5sum: d3d66cf008bf30d96dbadf53b3b2d882
+Description: Zeppelin logo for the American Flag for /u/lightbinding
+Name: U.S. Flag Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.ubuntuzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.ubuntuzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 6878
+MD5sum: ee96a72f6859d581d6d879e399686b55
+Description: Ubuntu zeppelin logo for /u/pupilliam!
+Name: Ubuntu Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.usczeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.usczeppelinlogo_1.0_iphoneos-arm.deb
+Size: 8558
+MD5sum: dd003069804ed59d29a4b838b6d2807d
+Description: Zeppelin logo for the University of South Carolina for /u/josecabrera95!
+Name: USC Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.versacezeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Conflicts: com.carlyd95.22red9zeppelinlogo
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.versacezeppelinlogo_1.1_iphoneos-arm.deb
+Size: 8020
+MD5sum: 389be2ea9c3dd57653ca6cfba88b2253
+Description: Zeppelin logo for Versace /u/22red9 and /u/Adam-1D
+Name: Versace Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.wu-tangclanzeppelinlogo
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.wu-tangclanzeppelinlogo_1.0_iphoneos-arm.deb
+Size: 4452
+MD5sum: 9b9360d81ced6a204b2a82935beef678
+Description: Zeppelin logo for Wu-Tang Clan for /u/Slab_Amberson!
+Name: Wu-Tang Clan Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.carlyd95.yeezuszeppelinlogo
+Version: 1.1
+Section: Addons (Zeppelin)
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: .//debs/com.carlyd95.yeezuszeppelinlogo_1.1_iphoneos-arm.deb
+Size: 5422
+MD5sum: e59a016d1bde1f0d4837222ce6808dde
+Description: Zeppelin logo for Yeezus for /u/itssjustkevin!
+Name: Yeezus Zeppelin Logo
+Author: carlyd95 <dcarltondunlap@me.com>
+Homepage: http://carlyd95.github.io/
+
+Package: com.ps.emoji83
+Version: 1.0-50
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate, firmware (>= 6.0)
+Architecture: iphoneos-arm
+Filename: .//debs/com.ps.emoji83_1.0-50_iphoneos-arm.deb
+Size: 108232
+Installed-Size: 492
+MD5sum: 6027eb2767b9ac2729f05c83c8869d1a
+Description: 8.3 Emoji for everyone.
+Name: Emoji83 [BETA]
+Author: PoomSmart
+
+Package: com.ps.emojilayout
+Version: 1.0-20
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate, firmware (>= 6.0)
+Architecture: iphoneos-arm
+Filename: .//debs/com.ps.emojilayout_1.0-20_iphoneos-arm.deb
+Size: 18692
+Installed-Size: 120
+MD5sum: fdf2725100ba4abe3d1cfd76cf3bc1f1
+Description: [Beta]
+Name: EmojiLayout
+Author: PoomSmart
+
+Package: com.themeanest.mfiwrapper
+Version: 0.0.1-2
+Section: Tweaks
+Maintainer: meancoot
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: .//debs/com.themeanest.mfiwrapper_0.0.1-2_iphoneos-arm.deb
+Size: 90288
+Installed-Size: 376
+MD5sum: cc0c3cf9c12f4fb0e59cba6eb0a56a38
+Description: BTstack based MFi controller wrapper
+Name: MFiWrapper
+Author: meancoot
+
+Package: com.vedboon.disabled.isavedyourass.andscaredyou
+Version: 1.0.2-2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0), preferenceloader (>= 2.2.2)
+Architecture: iphoneos-arm
+Filename: .//debs/bypasscode.deb
+Size: 492580
+Installed-Size: 202
+MD5sum: 541ffa7bc592b929d5d1d0a215f8af98
+Description: no lock-out period for wrong password and bypass passcode but I also scared the crap out of you thanks to i0sa
+Name: disabled(👻)
+Author: Javier (VedBoon) Brito <him_jbg@icloud.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=disabledDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=disabledDp
+Icon: file:///Library/PreferenceBundles/disabledPreferences.bundle/disabledPreferences@2x.png
+
+Package: jp.r-plus.geoevent
+Version: 0.0.1-79
+Section: Tweaks
+Maintainer: r_plus
+Depends: mobilesubstrate, firmware (>= 7.0), cc.tweak.libobjcipc, libactivator (>= 1.9)
+Architecture: iphoneos-arm
+Filename: .//debs/jp.r-plus.geoevent_0.0.1-79_iphoneos-arm.deb
+Size: 73060
+Installed-Size: 380
+MD5sum: 7e626d529e2109fb878163e76bbe8f1b
+Description: Geofencing event for activator.
+Name: GeoEvent for Activator
+Author: r_plus
+Icon: file:///Applications/GeoEvent.app/Icon@2x.png
+
+Package: python
+Version: 2.7.6-3
+Priority: optional
+Section: Scripting
+Maintainer: Linus Yang <laokongzi@gmail.com>
+Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
+Architecture: iphoneos-arm
+Filename: .//debs/python_2.7.6-3_iphoneos-arm.deb
+Size: 10234620
+Installed-Size: 87344
+MD5sum: a4c724074a4d9443eb43ca023fd9023f
+Description: architectural programming language
+Name: Python
+Homepage: http://www.python.org/
+
