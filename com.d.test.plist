@@ -5,7 +5,7 @@
 	<key>KeepAlive</key>
 	<true/>
 	<key>Label</key>
-	<string>bewbs</string>
+	<string>com.d.test</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/bin/bash</string>
