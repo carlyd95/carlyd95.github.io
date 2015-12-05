@@ -1,6 +1,6 @@
 Package: com.carlyd95.mtrs2ft
 Name: mtrs2ft
-Version: 2.0
+Version: 1.0
 Architecture: iphoneos-arm
 Description: CLI that converts meters to feet, was just a practice of me starting to learn objc.
 Homepage: http://carlyd95.github.io/repo
