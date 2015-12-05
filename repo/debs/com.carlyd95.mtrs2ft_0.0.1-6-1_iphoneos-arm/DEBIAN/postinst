@@ -1,0 +1,2 @@
+#!/bin/bash
+mtrs2feet | sleep 1 ; exit

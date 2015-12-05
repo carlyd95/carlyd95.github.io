@@ -1,0 +1,10 @@
+Package: com.carly-d95.brigadeszeppelinlogo
+Name: Brigades Zeppelin Logo
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Zeppelins logo for SC band Brigades!!! Check them out!!!
+Depiction: 
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Author: Carly-D95 <dcarltondunlap@me.com>
+Section: Addons (Zeppelin)
+Depends: com.alexzielenski.zeppelin
