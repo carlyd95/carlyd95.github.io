@@ -1,0 +1,12 @@
+Package: com.moshed.azlyrics
+Name: azlyrics
+Version: 2.0.0
+Architecture: iphoneos-arm 
+Author: moshed <moshedancykier@gmail.com> 
+Depends: lynx,  com.rob311.sshmediacontrols, coreutils, org.thebigboss.cutils, net.tateu.sendtestbulletin
+Conflicts: 
+Depiction: 
+Description: Fetches lyrics and displays them in the Notification Center.
+Homepage:
+Maintainer: 
+Section: Addons
