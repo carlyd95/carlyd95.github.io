@@ -1,5 +1,4 @@
-Package:
-com.armstronggraphics.pokemongolockglyphpack
+Package: com.armstronggraphics.pokegolockglyphpack
 Name: Pokemon Go LockGlyph Pack
 Version: 1.1.0
 Architecture: iphoneos-arm
