@@ -1,0 +1,137 @@
+#! /bin/bash
+
+function display_result {
+	if [ "$input" == "-cli" ]
+	then
+		echo -e "$content"
+	else
+		stb -b "$app" -t "$track" -s "$artist" -m "$content"
+	fi
+	echo -e "\napp\t\t\t$app\nsource\t\t\t$source\nartist\t\t\t$artist\ntrack\t\t\t$track\nweb artist az\t\t$web_artist_az\nweb track az\t\t$web_track_az\nweb artist metro\t$web_artist_metro\nweb track metro\t\t$web_track_metro\n"
+}
+
+function fetch_lyrics {
+	web_track_az=$(echo "$track" | sed -r 's/\s(\(|\[|\-).*([Ll]ive|[Ff]eat\.?(uring)?|([Rr]e)?[Mm]ix|[Ss]oundtrack|[Rr]adio [Ee]dit|[Rr]emaster(ed)?|[Ww]ith|[Ss]ingle|[Vv]ersion).*(\]|\))?|[^a-zA-Z0-9]|'\''//g;s/.*/\L&/g')
+	web_artist_az=$(echo "$artist" | sed -r 's/^([Tt]he |[Aa] )|[^A-Za-z0-9]//g;s/.*/\L&/g')
+	special_cases
+	lynx -dump http://www.azlyrics.com/lyrics/$web_artist_az/$web_track_az.html >/User/Media/Lyrics/lyrics.tmp
+	if [ "$(cat /User/Media/Lyrics/lyrics.tmp | grep -c "Welcome to AZLyrics" | sed 's/ //g')" -eq 0 ]
+	then
+		source=azlyrics
+	else
+		fetch_alternate_lyrics
+	fi
+}
+
+function fetch_alternate_lyrics {
+	web_track_metro=$(echo "$track" | sed -r 's/\s(\(|\[|\-).*([Ll]ive|[Ff]eat\.?(uring)?|([Rr]e)?[Mm]ix|[Ss]oundtrack|[Rr]adio [Ee]dit|[Rr]emaster(ed)?|[Ww]ith|[Ss]ingle|[Vv]ersion).*(\]|\))?|[^a-zA-Z0-9 ]|'\''//g;s/ /-/g;s/.*/\L&/g')
+	web_artist_metro=$(echo "$artist" | sed -r 's/^[Tt]he |^[Aa] |[^A-Za-z0-9 ]//g;s/ /-/g;s/.*/\L&/g')
+	lynx -dump http://www.metrolyrics.com/$web_track_metro-lyrics-$web_artist_metro.html >/User/Media/Lyrics/lyrics.tmp
+	# cat /User/Media/Lyrics/lyrics.tmp
+	if [ "$(cat /User/Media/Lyrics/lyrics.tmp | grep -c "404 - Page Not Found\|Popular Songs" | sed 's/ //g')" -eq 0 ]
+	then
+		source=metrolyrics
+		unset web_track_az
+		unset web_artist_az
+	else
+		error
+	fi
+}
+
+function fix_variables {
+	if [ "$errorflag" != "yes" ]
+	then
+		content=$(echo -n "\n" & cat "/User/Media/Lyrics/$pathartist/$pathtrack.txt")
+	fi
+	app=$(media bunID)
+	if [ -z "$web_artist_az" ] && [ -z "$web_track_az" ]
+	then
+		web_artist_az="NA"
+		web_track_az="NA"
+	fi
+	if [ -z "$web_artist_metro" ] && [ -z "$web_track_metro" ]
+	then
+		web_artist_metro="NA"
+		web_track_metro="NA"
+	fi
+	if [ -z "$source" ]
+	then
+		source="local"
+	fi
+}
+
+function trim_lyrics {
+	mkdir -p "/User/Media/Lyrics/$pathartist"
+	if [ "$source" == "azlyrics" ]
+	then
+		start=$(cat /User/Media/Lyrics/lyrics.tmp | grep -n LYRICS | sed -r 's/:.*//')
+		end=$(cat /User/Media/Lyrics/lyrics.tmp | grep -n "Submit Corrections" | sed 's/:.*//')
+		cat /User/Media/Lyrics/lyrics.tmp | sed "1,$(expr $start + 2)d;$end,999d;s/^ *//g;s/[^][0-9a-zA-Z :;\'"\""?,\.\!\&\$+()-]/ /g" >"/User/Media/Lyrics/$pathartist/$pathtrack.txt"
+	elif [ "$source" == "metrolyrics" ]
+	then
+		start=$(cat /User/Media/Lyrics/lyrics.tmp | grep -n "Submit Corrections Cancel" | sed -r 's/:.*//')
+		end=$(cat /User/Media/Lyrics/lyrics.tmp | grep -n "^ *Songwriters$" | sed -r 's/:.*//')
+		cat /User/Media/Lyrics/lyrics.tmp | sed "1,$(expr $start + 1)d;$(expr $end - 1),999d;s/^ *//g;s/[^][0-9a-zA-Z :;\'"\""?,\.\!\&\$+()-]/ /g" >"/User/Media/Lyrics/$pathartist/$pathtrack.txt"
+	fi
+}
+
+function error {
+	errorflag=yes
+	app=$(media bunID)
+	title="Error"
+	source="NA"
+	content=$(echo -e "\nNo lyrics were found. Please email moshedancykier@gmail.com with the file errorlog.txt (located in /User/Media/Lyrics) as an attachment.\n\nAlternatively you can add lyrics yourself for future usage in /User/Media/Lyrics/ArtistName/TrackName (ensure that it matches the song info exactly)")
+	if [ "$(cat /User/Media/Lyrics/errorlog.txt | grep -c "$track - $artist")"  -eq 0 ]
+	then
+		echo -e "$track - $artist\t\t$(date "+%Y.%m.%d %R")">>/User/Media/Lyrics/errorlog.txt
+	fi
+}
+
+function special_cases {
+	if [ "$artist" == "Electric Light Orchestra" ]
+	then
+		web_artist_az="electriclightorchestraelo"
+	elif [ "$artist" == "Bob Marley & The Wailers" ]
+	then
+		web_artist_az="bobmarley"
+	elif [ "$track" == "The House Of The Rising Sun" ]
+	then
+		web_artist_az="houseoftherisingsun"
+	elif [ "$artist" == "P!nk" ]
+	then
+		web_artist_az="pink"
+	fi
+}
+
+input=$(echo $1)
+if [ "$(whoami)" == "mobile" ]
+then
+	artist=$(media artist)
+	track=$(media title)
+	pathtrack=$(media title | sed 's/\// /g')
+	pathartist=$(media artist | sed 's/\// /g')
+	mkdir -p "/User/Media/Lyrics/"
+	touch /User/Media/Lyrics/errorlog.txt
+	if [ "$(stat -c %a /User/Media/Lyrics/errorlog.txt)" != "666" ]
+	then
+		chmod 666 /User/Media/Lyrics/errorlog.txt
+	fi
+	if [ "$artist" == "(null)" ] ||  [ "$track" == "(null)" ]
+	then
+		app="com.apple.Preferences"
+		title="Error"
+		content="No song is currently playing"
+		display_result
+		exit
+	fi
+	if [ ! -f "/User/Media/Lyrics/$pathartist/$pathtrack.txt" ]
+	then
+		fetch_lyrics
+		trim_lyrics
+	fi
+	fix_variables
+	display_result
+	rm /User/Media/Lyrics/lyrics.tmp 2> /dev/null
+else
+	echo "Cant be run as root"
+fi
