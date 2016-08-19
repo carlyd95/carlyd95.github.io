@@ -1,0 +1,10 @@
+Package: com.carly-d95.abrzeppelinlogo
+Name: ABR Zeppelin Logo
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Zeppelins logo for the artist August Burns Red for /u/jacobjs93 and /u/phillydwg18!
+Homepage: http://carlyd95.github.io/
+Maintainer: Carly-D95 <dcarltondunlap@me.com>
+Author: Carly-D95 <dcarltondunlap@me.com>
+Section: Addons (Zeppelin)
+Depends: com.alexzielenski.zeppelin
