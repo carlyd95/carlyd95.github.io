@@ -1,9 +1,0 @@
-Package: blah
-Name: Blah
-Version: 5.0
-Architecture: iphoneos-arm
-Description: blah
-Homepage: http://carlyd95.github.io/
-Maintainer: Blahb
-Author: Blah
-Section: blah
