@@ -1,3 +1,0 @@
-#! /bin/bash
-chmod 645 /usr/bin/lyrics
-chgrp wheel /usr/bin/lyrics
