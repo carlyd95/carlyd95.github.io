@@ -1,0 +1,35 @@
+
+  Daily Text Script
+Description
+	•	This package is a simple command line tool that fetches the Daily Text at 5:30 AM each morning from JW.org then saves it to /Library/DailyText/DailyText.txt. simply type dailytext -alert to display the text!    I also recommend downloading QuickActivator and the JW.org Glyph for it and set up an activator listener to run dailytext -alert so you can quickly get the daily text from your control center. This is shown in the video below 
+Watch!
+	•	 
+Recent Updates
+	•	2.5-3 
+	•	I added the date in the title on the sbalert 
+	•	
+	•	2.5 
+	•	the website change its structure and caused sbalert to not be able to display the daily text, also simplified code and removed date from beginning of the text. 
+	•	
+	•	2.4 
+	•	Removed the km x/x p. x - Kingdom Ministry--xxxx which was irrelevant to the Daily Text. Unless the website changes its format this will likely be the final version or if I have better ideas how to display or trigger it. 😊 
+	•	
+	•	2.3-1 
+	•	Removed part of the postinst script that displayed the text after initial install and each upgrade... 
+	•	
+	•	2.3 
+	•	moshed help me resolve a problem that caused padding in one of the date variables to not have a space causing the date to still be shown and duplicate the initial scripture. 
+Links
+	•	GitHub 
+ 
+	•	iMessage 
+ 
+	•	Donate 
+Compatibility
+	•	iOS 4.x - iOS 9.x.x 
+Dependencies
+	•	Lynx 
+ 
+	•	Gawk 
+ 
+	•	SBUtils 
