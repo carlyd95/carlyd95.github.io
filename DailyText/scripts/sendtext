@@ -5,9 +5,6 @@ import re
 import datetime
 import yagmail
 import unicodedata
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 
 subs = []
@@ -44,4 +41,4 @@ dtmail = yagmail.SMTP("dcarltondunlap@gmail.com", "Gogators95")
 
 
 
-dtmail.send(to = subs, subject = 'Daily Text', contents = [dailytext])
+dtmail.send(to = 'dcarltondunlap@hotmail.com', subject = 'Daily Text', contents = [dailytext])
