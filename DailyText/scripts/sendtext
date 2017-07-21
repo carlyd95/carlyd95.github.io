@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 import requests
 import re
@@ -8,7 +8,7 @@ import unicodedata
 
 
 subs = []
-with open('/Users/Carly-D/Documents/git/DailyText/subs') as file:
+with open('/var/mobile/Documents/git/DailyText/subs') as file:
     n = 0
     for line in file:
         line = line.strip() #preprocess line
