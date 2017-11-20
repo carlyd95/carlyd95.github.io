@@ -2,20 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>EnvironmentVariables</key>
-	<dict>
-		<key>PATH</key>
-		<string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin</string>
-	</dict>
 	<key>Label</key>
 	<string>io.github.carlyd95.sendtext</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/bin/python2.7</string>
-		<string>/Users/Carly-D/Documents/git/DailyText/scripts/sendtext</string>
+		<string>/var/mobile/Documents/DailyText/scripts/script.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<false/>
+	<key>StandardErrorPath</key>
+	<string>/var/mobile/Documents/DailyText/error.log</string>
+	<key>StandardOutPath</key>
+	<string>/var/mobile/Documents/DailyText/output.log</string>
 	<key>StartCalendarInterval</key>
 	<array>
 		<dict>
