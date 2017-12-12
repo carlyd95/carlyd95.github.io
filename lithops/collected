@@ -1,7 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<p>
 Lithops collected:
 
 C:
-064
+<a href="http://carlyd95.github.io/lithops/Images/C064">064</a>
 062
 328
 086
@@ -25,3 +33,7 @@ SH:
 
 Cultivars:
 'Summitatum'
+
+</p>
+</body>
+</html>
