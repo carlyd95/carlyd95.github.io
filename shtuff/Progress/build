@@ -1,0 +1,2 @@
+#! /bin/bash
+dpkg -b sendrsa_3.0
