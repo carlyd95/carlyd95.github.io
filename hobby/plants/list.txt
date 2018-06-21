@@ -1,4 +1,4 @@
-Haworthia arachnoidea v. nigricans "venteri" (forma absitaspina)
+* Haworthia arachnoidea v. nigricans "venteri" (forma absitaspina) 
 H. bruynsii
 H. emelyae v. major
 H. pygmaea v. splendens x H. emelyae v. comptoniana 'Mabel's Dream'
@@ -40,10 +40,21 @@ H. venosa ssp. venosa
 H. 'Edema'
 H. mutica 'Silver'
 H. 'Makai'
+H. 'Big Bang'
+H. 'Aurora'
+H. 'Amaterasu'
+
 Astroloba spirilis
 A. egregia
 
 
+
+
 crosses to try
 - H. emelyae v. comptoniana x H. springbokvlakensis
+
+Blulbine bruynsii
+
+Dioscorea mexicana
+D. elephantides
 
