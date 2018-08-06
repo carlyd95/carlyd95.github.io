@@ -1,14 +1,8 @@
-x Haworthia arachnoidea v. nigricans "venteri" (forma absitaspina) 
-H. bruynsii
-X  H. emelyae v. major
-H. pygmaea v. splendens x H. emelyae v. comptoniana 'Mabel's Dream'
+H. emelyae v. comptoniana 'Mabel's Dream'
 H. fasciata "browniana"
 H. glauca v. glauca
-X H. kingiana (tulista)
-X H. koelmaniorum v. koelmaniorum
---------------- v. mcmurtryi
-H. limifolia v. glaucophylla
--------------v. arcana
+H. koelmaniorum v. mcmurtryi
+H. limifolia v. arcana
 -------------v. gigantea
 H. magnifica v. magnifica
 -------------v. atrofusca
@@ -18,22 +12,16 @@ H. mirabilis v. beukmannii
 -------------v. sublineata
 -------------v. triebneriana
 H. mucronata
-X H. mutica v. mutica
-X ----------v. nigra
-X H. nigra
 H. parksiana
 H. pumila "robertson"
 H. pungens
-X H. pygmaea v. splendens
-----------v. dekenahii
+H. mirabilis v. dekenahii
 H. reinwardtii v. brevicula
 H. scabra v. scabra
-X ----------v. starkiana
 ----------v. lateganiae
 ----------v. morrisiae
 H. sordida v. sordida
 -----------v. lavranii
-X H. springbokvlakensis
 ----------ssp. granulata
 ----------ssp. woolleyi
 H. 'Edema'
@@ -41,16 +29,9 @@ H. mutica 'Silver'
 H. 'Makai'
 H. 'Big Bang'
 H. 'Aurora'
-X H. 'Amaterasu'
 
 Astroloba spirilis
 A. egregia
-
-
-
-
-crosses to try
-- H. emelyae v. comptoniana x H. springbokvlakensis
 
 Bulbine bruynsii
 
@@ -59,11 +40,32 @@ D. elephantides
 
 Dinteranthus vanzyilii
 Dinterops F2
+Lithops C244
 
 Euphorbia meloformis subsp. valida
 
-Lithops cesky granat
-c244
-rose of texas
-C189 / C189a
+
+crosses to try:
+H. emelyae v. comptoniana x H. springbokvlakensis
+H. pygmaea v. splendens x H. emelyae v. comptoniana 'Mabel's Dream'
+
+
+Obtained:
+H. kingiana (tulista)
+H. emelyae v. major
+Haworthia arachnoidea v. nigricans "venteri" (forma absentaspina)
+H. koelmaniorum v. koelmaniorum
+H. mutica v. mutica
+ ------------v. nigra
+H. nigra
+H. bruynsii 
+H. limifolia v. glaucophylla
+H. pygmaea v. splendens
+H. scabra v. starkiana
+H. 'Amaterasu'
+H. springbokvlakensis
+
+Lithops 'Český Granát'
+L. 'Rose of Texas'
+L. C189
 
