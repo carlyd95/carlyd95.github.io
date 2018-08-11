@@ -1,10 +1,8 @@
 H. fasciata "browniana"
-H. glauca v. glauca
 H. koelmaniorum v. mcmurtryi
 H. limifolia v. arcana
 H. limifolia v. gigantea
 H. magnifica v. magnifica
-H. magnifica v. atrofusca
 H. mirabilis v. beukmannii
 H. mirabilis v. badia
 H. mirabilis v. sublineata
@@ -25,7 +23,6 @@ H. venosassp. woolleyi
 
 H. 'Edema'
 H. mutica 'Silver'
-H. springbokvlakensis cv. 'Makai'
 H. maughanii cv. 'Big Bang'
 H. maughanii cv. 'Aurora'
 H. groenewaldii cv. 'Tenten'
@@ -42,40 +39,35 @@ D. elephantides
 
 Dinteranthus vanzyilii
 Dinterops F2
-Lithops C244
+Lithops (Localities or cole numer prefered unless a cultivar)
+C244
+Lithops 'Český Granát'
 L. psuedotruncatella C072
 L. vallis-mariae
 L. comptonii
 L. divergens
 L. terricolor 'Speckled Gold'
 L. fulviceps 'Aurea'
+C189 Waldroniae
+
+Conophytum pellicidum  (3km N. of Concordia)
+Conophytum spp.
+
+Maihueniopsis bonniae f. inermis
+
+Lophophora alberto-vojtechii
+
+Adromischus marianae v. hallii (compact clumpy forms, ex. 'Aurus Montain')
 
 
 Euphorbia meloformis subsp. valida
 
 Gerrardanthus macrorhizus
 
+cheap pereskiopsis for grafting 
+
+
 crosses to try:
 H. emelyae v. comptoniana x H. springbokvlakensis
 H. pygmaea v. splendens x H. emelyae v. comptoniana 'Mabel's Dream'
-
-
-Obtained:
-H. kingiana (tulista)
-H. emelyae v. major
-Haworthia arachnoidea v. nigricans "venteri" (forma absentaspina)
-H. koelmaniorum v. koelmaniorum
-H. mutica v. mutica
- ------------v. nigra
-H. nigra
-H. bruynsii 
-H. limifolia v. glaucophylla
-H. pygmaea v. splendens
-H. scabra v. starkiana
-H. 'Amaterasu'
-H. springbokvlakensis
-
-Lithops 'Český Granát'
-L. 'Rose of Texas'
-L. C189
 
