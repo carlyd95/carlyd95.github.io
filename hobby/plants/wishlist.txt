@@ -1,6 +1,8 @@
 H. fasciata "browniana"
+H. bayeri
+H. emelyae v. multifolia
+H. emelyae v. emelyae
 H. koelmaniorum v. mcmurtryi
-H. limifolia v. arcana
 H. limifolia v. gigantea
 H. magnifica v. magnifica
 H. mirabilis v. beukmannii
@@ -11,15 +13,17 @@ H. mucronata
 H. parksiana
 H. pumila "robertson"
 H. pungens
-H. mirabilis v. dekenahii
+H. pygmaea v. dekenahii
 H. reinwardtii v. brevicula
 H. scabra v. scabra
 H. scabra v. lateganiae
 H. scabra v. morrisiae
-H. sordida v. sordida
 H. sordida v. lavranii
 H. venosa ssp. granulata
-H. venosassp. woolleyi
+H. venosa ssp. woolleyi
+
+Poellnitza rubraflora
+
 
 H. 'Edema'
 H. mutica 'Silver'
@@ -28,9 +32,13 @@ H. maughanii cv. 'Aurora'
 H. groenewaldii cv. 'Tenten'
 H. emelyae v. comptoniana cv. 'Mabel's Dream'
 H. truncata cv. 'Hou'
+H. venosa ssp. tessellata cv. 'Gabe'
+H. venosa ssp. tessellata cv. 'Neat'
+
 
 Astroloba spirilis
 A. egregia
+A. x T. bicarinata, skinneri
 
 Bulbine bruynsii
 
