@@ -34,6 +34,12 @@ H. emelyae v. comptoniana cv. 'Mabel's Dream'
 H. truncata cv. 'Hou'
 H. venosa ssp. tessellata cv. 'Gabe'
 H. venosa ssp. tessellata cv. 'Neat'
+H. 'Audrey'
+H. 'Natalie'
+H truncata 'Silver Dragon' Lin Yong
+H. tessellata 'fubuki'
+
+M. mandragona
 
 
 Astroloba spirilis
@@ -57,6 +63,7 @@ L. divergens
 L. terricolor 'Speckled Gold'
 L. fulviceps 'Aurea'
 C189 Waldroniae
+L. karasmontana v. bella 'Bella Kitty'
 
 Conophytum pellicidum  (3km N. of Concordia)
 Conophytum spp.
@@ -80,4 +87,5 @@ cheap pereskiopsis for grafting
 crosses to try:
 H. emelyae v. comptoniana x H. springbokvlakensis
 H. pygmaea v. splendens x H. emelyae v. comptoniana 'Mabel's Dream'
+
 
