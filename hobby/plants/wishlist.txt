@@ -21,10 +21,16 @@ H. scabra v. morrisiae
 H. sordida v. lavranii
 H. venosa ssp. granulata
 H. venosa ssp. woolleyi
+H. enigma
+Haworthia mirabilis 'joleneae'
+Haworthia fusca I.Breuer
+Haworthia indigoa
+
 
 Poellnitza rubraflora
 
-
+H. 'Mootica'
+H. 'Kelikete'
 H. 'Edema'
 H. mutica 'Silver'
 H. maughanii cv. 'Big Bang'
@@ -38,6 +44,9 @@ H. 'Audrey'
 H. 'Natalie'
 H truncata 'Silver Dragon' Lin Yong
 H. tessellata 'fubuki'
+Haworthia beukmannii
+
+Haworthia breuri
 
 M. mandragona
 
@@ -82,6 +91,7 @@ Euphorbia meloformis subsp. valida
 Gerrardanthus macrorhizus
 
 cheap pereskiopsis for grafting 
+
 
 
 crosses to try:
