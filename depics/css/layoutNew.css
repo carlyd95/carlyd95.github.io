@@ -42,6 +42,15 @@ a:visited {
 	border-top: 0.5px solid #c4c4c6 !important;
     border-bottom: 0.5px solid #c4c4c6 !important;
     background-color: #fff !important;
+    }
+
+#contentSingleTop {
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-top: 0.5px solid #c4c4c6 !important;
+    border-bottom: 0.5px solid #c4c4c6 !important;
+    background-color: #fff !important;
 }
 
 #contentSingleYellow {
@@ -58,6 +67,7 @@ a:visited {
 	margin-left: 0px;
     border-bottom: 0.5px solid #c4c4c6 !important;
     background-color: #fff !important;
+
 }
 
 #contentBottomYellow {
@@ -68,8 +78,8 @@ a:visited {
 }
 
 #contentTop {
-	padding: 15px;
-	margin-left: 0px;
+	padding: 0px;
+	margin-left: px;
 	margin-top: 10px;
     border-top: 0.5px solid #c4c4c6 !important;
     background-color: #fff !important;
@@ -95,7 +105,11 @@ a:visited {
 
 h2.repoDescriptionHeader {
 	text-align: center;
-	display: inline;
+	padding-right: 15px;
+	display: inline;height: 110px;
+	width: 55px;
+	font-size: 55px;
+	vertical-align:middle;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -108,9 +122,10 @@ h2.repoScreenshotsHeader {
 
 h3.textHeaderLabel {
 	font-size: 17px;
-	font-weight: 400;
+	font-weight: 400px;
 	text-align: center;
 	display: inline;
+	margin-top: 0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -128,6 +143,16 @@ img.repoScreenshots{
 	height: 28px;
 	width: 28px;
 	vertical-align:middle;
+}
+
+img.croppedImage{
+	margin: 5px;
+	height: 100px;
+	width: 100px;
+	vertical-align:middle;
+	-webkit-clip-path: circle(50%);
+  clip-path: circle(50%);
+
 }
 
 ul,li { 
