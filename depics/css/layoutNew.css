@@ -2,16 +2,16 @@ html, body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: #efeff4;
+    background-color: #d1d1d1;
 }
 
-a:link.test {
-    color: #000;
+a:link {
+    color: #5fb0d8;
     text-decoration: none;
 }
 
-a:visited.test {
-    color: #000;
+a:visited {
+    color: #727272;
     text-decoration: none;
 }
 
