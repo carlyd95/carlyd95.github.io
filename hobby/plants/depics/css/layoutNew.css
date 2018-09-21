@@ -153,6 +153,7 @@ img.croppedImage{
 	vertical-align: middle;
 	-webkit-clip-path: circle(50%);
   	clip-path: circle(50%);
+	-ms-clip-path: circle(50%);
   	margin:2%;
   	margin-top: 2.5%;
   	margin-bottom: 2.5%;
