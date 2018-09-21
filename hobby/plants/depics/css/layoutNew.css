@@ -3,7 +3,6 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #d1d1d1;
-    font-size:;
 }
 
 a:link {
@@ -108,7 +107,6 @@ h2.repoDescriptionHeader {
 	text-align: left;
     display: inline-table;
 	font-size: 300%;
-	max-height: 120px;
 	vertical-align: middle;
 	margin:0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
