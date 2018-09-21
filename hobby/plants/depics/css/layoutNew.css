@@ -108,7 +108,8 @@ h2.repoDescriptionHeader {
     display: inline-table;
 	font-size: 300%;
 	vertical-align: middle;
-	margin:0px;
+	margin-bottom:25px;
+	margin-top: 25px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
