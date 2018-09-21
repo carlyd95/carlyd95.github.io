@@ -104,12 +104,10 @@ a:visited {
 }
 
 h2.repoDescriptionHeader {
-	text-align: center;
-	padding-right: 15px;
-	display: inline;height: 110px;
-	width: 55px;
-	font-size: 55px;
-	vertical-align:middle;
+	text-align: left;
+    display: inline-table;
+	font-size: 35px;
+	vertical-align: middle;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -124,8 +122,8 @@ h3.textHeaderLabel {
 	font-size: 17px;
 	font-weight: 400px;
 	text-align: center;
-	display: inline;
 	margin-top: 0px;
+	display:inline;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -136,7 +134,7 @@ hr { display: block; height: 0.5px;
 img.repoDescription{
 	height: 58px;
 	width: 58px;
-	vertical-align:middle;
+	vertical-align:center;
 }
 
 img.repoScreenshots{
@@ -149,9 +147,10 @@ img.croppedImage{
 	margin: 5px;
 	height: 100px;
 	width: 100px;
-	vertical-align:middle;
+	vertical-align: middle;
 	-webkit-clip-path: circle(50%);
   clip-path: circle(50%);
+
 
 }
 
