@@ -50,6 +50,9 @@ a:visited {
 	border-top: 0.5px solid #c4c4c6 !important;
     border-bottom: 0.5px solid #c4c4c6 !important;
     background-color: #fff !important;
+    height: auto;
+    width: auto;
+
 
 }
 
@@ -106,10 +109,8 @@ a:visited {
 h2.repoDescriptionHeader {
 	text-align: left;
     display: inline-table;
-	font-size: 275%;
 	vertical-align: middle;
-	margin: 0px;
-	height: 18%;
+	margin:0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -147,15 +148,14 @@ img.repoScreenshots{
 }
 
 img.croppedImage{
-	height: 22%;
-	width: 22%;
 	vertical-align: middle;
 	-webkit-clip-path: circle(50%);
   	clip-path: circle(50%);
+  	margin:2%;
   	margin-top: 4%;
   	margin-bottom: 4%;
-  	margin-right: 2%;
-  	margin-left: 2%;
+  	height:22%;
+  	width:22%;
 
 
 }
