@@ -110,7 +110,11 @@ h2.repoDescriptionHeader {
 	text-align: left;
     display: inline-table;
 	vertical-align: middle;
+	line-height: 125%;
+	font-size:280%;
 	margin:0px;
+	max-height: 20%;
+	max-width:20%;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -148,14 +152,16 @@ img.repoScreenshots{
 }
 
 img.croppedImage{
+	height:22%;
+  	width:22%;
 	vertical-align: middle;
 	-webkit-clip-path: circle(50%);
   	clip-path: circle(50%);
   	margin:2%;
   	margin-top: 4%;
   	margin-bottom: 4%;
-  	height:22%;
-  	width:22%;
+  	max-height:22%;
+  	max-width:22%;
 
 
 }
