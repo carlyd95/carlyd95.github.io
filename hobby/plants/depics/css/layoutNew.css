@@ -148,8 +148,8 @@ img.repoScreenshots{
 }
 
 img.croppedImage{
-	height: 120px;
-	width: 120px;
+	height: 22%;
+	width: 22%;
 	margin-left: 10px;
 	vertical-align: middle;
 	-webkit-clip-path: circle(50%);
