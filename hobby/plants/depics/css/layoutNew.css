@@ -107,7 +107,8 @@ a:visited {
 h2.repoDescriptionHeader {
 	text-align: left;
     display: inline-table;
-	font-size: 225%;
+	font-size: 300%;
+	max-height: 120px;
 	vertical-align: middle;
 	margin:0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
