@@ -50,8 +50,6 @@ a:visited {
 	border-top: 0.5px solid #c4c4c6 !important;
     border-bottom: 0.5px solid #c4c4c6 !important;
     background-color: #fff !important;
-
-
 }
 
 #contentSingleYellow {
@@ -138,7 +136,9 @@ img.repoDescription{
 	height: 58px;
 	width: 58px;
 	vertical-align:center;
+	/*
 	display: inline-table;
+	*/
 }
 
 img.repoScreenshots{
@@ -153,14 +153,15 @@ img.croppedImage{
   	clip-path: circle(50%);
 	-ms-clip-path: circle(50%);
 	-o-clip-path: circle(50%);
+
+/*
   	margin:2%;
   	margin-top: 2.5%;
   	margin-bottom: 2.5%;
   	height: 175px;
-  	width: 175px;
+  	width: px;
   	display: inline-table;
-
-
+*/
 }
 
 ul,li { 
