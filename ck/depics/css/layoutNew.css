@@ -104,12 +104,13 @@ a:visited {
 h2.repoDescriptionHeader {
 	text-align: left;
 	vertical-align: middle;
-	font-size: 48px;
+	font-size: 40px;
 	margin: 0px;
 	padding: 15px;
-	width: 45%;
 	display: inline-block;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
 }
 
 h2.repoScreenshotsHeader {
@@ -148,12 +149,11 @@ img.croppedImage{
   	clip-path: circle(50%);
 	-ms-clip-path: circle(50%);
 	-o-clip-path: circle(50%);
-	max-height: 150px;
-	max-width: 150px;
+	max-height: 130px;
+	max-width: 130px;
 	width: 50%;
   	margin-top: 15px;
   	margin-bottom: 15px;
-  	display: inline-table;
 
 }
 
