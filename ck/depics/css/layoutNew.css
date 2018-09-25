@@ -50,8 +50,6 @@ a:visited {
 	border-top: 0.5px solid #c4c4c6 !important;
     border-bottom: 0.5px solid #c4c4c6 !important;
     background-color: #fff !important;
-    height: auto;
-    width: auto;
 
 
 }
@@ -160,6 +158,7 @@ img.croppedImage{
   	margin-bottom: 2.5%;
   	height: 175px;
   	width: 175px;
+  	display: inline-table;
 
 
 }
