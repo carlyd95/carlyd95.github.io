@@ -49,7 +49,6 @@ a:visited {
     border-bottom: 0.5px solid #c4c4c6 !important;
     background-color: #fff !important;
     padding: 10px;
-    white-space:nowrap;
 }
 
 #contentSingleYellow {
@@ -104,12 +103,12 @@ a:visited {
 
 h2.repoDescriptionHeader {
 	text-align: left;
-    display: inline-table;
 	vertical-align: middle;
 	font-size: 48px;
 	margin: 0px;
 	padding: 15px;
 	width: 45%;
+	display: inline-block;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
