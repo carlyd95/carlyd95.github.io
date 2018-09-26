@@ -145,15 +145,17 @@ img.repoScreenshots{
 
 img.croppedImage{
 	vertical-align: middle;
+	/*
 	-webkit-clip-path: circle(50%);
   	clip-path: circle(50%);
 	-ms-clip-path: circle(50%);
 	-o-clip-path: circle(50%);
-	max-height: 130px;
-	max-width: 130px;
-	width: 50%;
-  	margin-top: 15px;
-  	margin-bottom: 15px;
+	*/
+
+	max-height: 145px;
+	max-width: 145px;
+  	margin: 12.5px;
+  	margin-left: 10px;
 
 }
 
