@@ -24,38 +24,42 @@ content="text/html;charset=utf-8" />
 			</div><!--Close Package Header Div-->
 			
 				<div id="contentSingle">
-						     <h3 class="textHeaderLabel">For Sale</h3>
+						     <h3 class="textHeaderLabel>For Sale</h3>
 				</div>
 					<div id="contentBottom">
 							<ul>
 								<li>
-									<a href="seeds.html" >Seeds</a>
+									<a href="" >Seeds</a>
 								</li>
 									<hr>
 								<li>
-									<a href="plants.html" >Plants</a>
+									<a href="" >Plants</a>
 								</li>
 						</div>
-				<div id="contentSingle">
-						     <h3 class="textHeaderLabel">Relevant Links</h3>
-				</div>
-					<div id="contentBottom">
+			<div id="contentSingle">
+                                                     <h3 class="textHeaderLabel">Relevant Links</h3>
+                                </div>
+                                        <div id="contentBottom">
                                                         <ul>
                                                                 <li>
-                                                                        <a href="https://www.instagram.com/fat_leaves_and_long_spines/" >My Plantstagram</a>
+                                                                        <a href="" ></a>
+                                                                </li>
+                                                                <li>
+                                                                        <a href="" ></a><div id="contentSingle">
+                                                     <h3 class="textHeaderLabel">Cactaceae | 10 seeds</h3>
+                                </div>
+                                        <div id="contentBottom">
+                                                        <ul>
+                                                                <li>
+                                                                        <a href="" target="_blank">Ariocarpus fissuratus</a> $4
                                                                 </li>
                                                                         <hr>
                                                                 <li>
-                                                                        <a href="http://www.gerhardmarx.com/p/succulent-cultivation.html" >Gerard Marx: Succulent Cultivation Notes</a>
+                                                                        <a href="" target="_blank">Ariocarpus retusus</a> $4
                                                                 </li>
-									<hr>
-                                                                <li>
-                                                                        <a href="sowingtips.txt" >General Seed Sowing Tips</a>
+                                                </div>
                                                                 </li>
-									<hr>
-                                                                <li>
-                                                                        <a href="" >blank</a>
-                                                                </li>
+                                                </div>
 						
 			</div><!--Close Package Header Div-->
 
