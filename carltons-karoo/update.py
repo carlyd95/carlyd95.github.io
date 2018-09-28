@@ -1,4 +1,4 @@
-#!/bin/python2.7
+#! /usr/bin/env python 
 
 import os
 
@@ -14,6 +14,6 @@ family = {'a':Aizocaceae, 'b':Asphodelaceae, 'c':Cactaceae, 'd':Euphorbiaceae, '
 
 
 
-for line in (os.listdir("/Users/carlyd95/git/carltons-karoo/pics")):
-		if line.endswith(('.jpg')):
-			list line.replace('.', '')
+for line in (os.listdir( os.environ['HOME'] + "/git/carltons-karoo/pics")):
+	if line.endswith(('.jpg')):
+		print line.replace('.', '	').replace('jpg', 'jpg')
