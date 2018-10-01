@@ -14,6 +14,6 @@ family = {'a':Aizocaceae, 'b':Asphodelaceae, 'c':Cactaceae, 'd':Euphorbiaceae, '
 
 
 
-for line in (os.listdir( os.environ['HOME'] + "/git/carltons-karoo/pics")):
+for line in (os.listdir( os.environ['HOME'] + "/git/carltons-karoo/pics/seeds")):
 	if line.endswith(('.jpg')):
 		print line.replace('.', '	').replace('jpg', 'jpg')
