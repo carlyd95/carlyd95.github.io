@@ -1,0 +1,478 @@
+Hoodia gordonii 3-4”
+Huernia schneideriana 6-7”
+Huernia zebrina
+Stapelia flavopurpurea 2-3”
+Stapelia desmetiana 3-4”
+Stapelia gigantea 4-5”
+trimoche revoluta v. tigrida 6-8”
+
+
+
+
+
+
+
+Haworthia retusa v. acuminata
+Melocactus mantazanus
+Haworthiopsis attenuata f. tanba "enon"
+Haworthia retusa HBG 73907
+Tulista pumila
+Haworthiopsis venosa subsp. tessellata
+Haworthia hybrid (maybe limifolia x attenuata)
+Haworthia pygmaea
+Aloe juvenna 
+Haworthiopsis attenuata (2 forms)
+Haworthiopsis attenuata v. radula
+Gasteraloe
+Haworthiopsis limifolia variegata
+Gasteria ‘Samurai’
+Gasteria batesiana
+Haworthiopsis coarctata v. chalumnensis
+Gasteria polita EVJ s.n.
+Gasteria glomerata
+
+
+
+Anacampseros rufescens
+
+Euphorbia baioensis 
+Euphorbia griseola
+Euphorbia heteropoda
+
+Ferocactus latispinus
+
+Parodia werneri
+Gymnocalycium baldianum
+Tephrocactus geometricus
+Last login: Wed Sep 26 22:40:07 on ttys000
+Carltons-MacBook-Pro:~ Carly-D$ python
+Python 2.7.10 (default, Oct  6 2017, 22:29:07) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ls
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ls' is not defined
+>>> open
+<built-in function open>
+>>> import os
+>>> os.listdir("path")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 2] No such file or directory: 'path'
+>>> import os
+>>> os.listdir("~/git/carltons-karoo/4sell")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 2] No such file or directory: '~/git/carltons-karoo/4sell'
+>>> import os
+>>> os.listdir("/Users/carlyd95/git/carltons-karoo/4sell")
+['IMG_0014.jpg', 'IMG_0028.jpg', 'scheme', 'IMG_0029.jpg', 'IMG_0015.jpg', 'IMG_0003.jpg', 'IMG_0017.jpg', 'IMG_0016.jpg', 'IMG_0002.jpg', 'IMG_0006.jpg', 'IMG_0012.jpg', '.DS_Store', 'IMG_0013.jpg', 'IMG_0007.jpg', 'IMG_0011.jpg', 'IMG_0005.jpg', 'IMG_0004.jpg', 'IMG_0010.jpg', 'a1.amicorum.TOK67.s.jpg', 'IMG_0021.jpg', 'IMG_0009.jpg', 'IMG_0008.jpg', 'IMG_0020.jpg', 'IMG_0022.jpg', 'IMG_0023.jpg', 'IMG_0027.jpg', 'IMG_0033.jpg', 'IMG_0032.jpg', 'IMG_0026.jpg', 'IMG_0018.jpg', 'IMG_0030.jpg', 'IMG_0024.jpg', 'IMG_0025.jpg', 'IMG_0031.jpg', 'IMG_0019.jpg']
+>>> pics = os.listdir("/Users/carlyd95/git/carltons-karoo/4sell")
+>>> pics
+['IMG_0014.jpg', 'IMG_0028.jpg', 'scheme', 'IMG_0029.jpg', 'IMG_0015.jpg', 'IMG_0003.jpg', 'IMG_0017.jpg', 'IMG_0016.jpg', 'IMG_0002.jpg', 'IMG_0006.jpg', 'IMG_0012.jpg', '.DS_Store', 'IMG_0013.jpg', 'IMG_0007.jpg', 'IMG_0011.jpg', 'IMG_0005.jpg', 'IMG_0004.jpg', 'IMG_0010.jpg', 'a1.amicorum.TOK67.s.jpg', 'IMG_0021.jpg', 'IMG_0009.jpg', 'IMG_0008.jpg', 'IMG_0020.jpg', 'IMG_0022.jpg', 'IMG_0023.jpg', 'IMG_0027.jpg', 'IMG_0033.jpg', 'IMG_0032.jpg', 'IMG_0026.jpg', 'IMG_0018.jpg', 'IMG_0030.jpg', 'IMG_0024.jpg', 'IMG_0025.jpg', 'IMG_0031.jpg', 'IMG_0019.jpg']
+>>> len(pics)
+35
+>>> len(pics.keys(.jpg)
+  File "<stdin>", line 1
+    len(pics.keys(.jpg)
+                  ^
+SyntaxError: invalid syntax
+>>> len(pics.keys( .jpg )
+  File "<stdin>", line 1
+    len(pics.keys( .jpg )
+                   ^
+SyntaxError: invalid syntax
+>>>  len(pics.keys(".jpg")
+  File "<stdin>", line 1
+    len(pics.keys(".jpg")
+    ^
+IndentationError: unexpected indent
+>>> len(pics.keys(".jpg")
+... )
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'keys'
+>>> pics.items()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'items'
+>>> type(pics)
+<type 'list'>
+>>> for item in pics
+  File "<stdin>", line 1
+    for item in pics
+                   ^
+SyntaxError: invalid syntax
+>>> for item in pics:
+...     if item in pics = '*.jpg'
+  File "<stdin>", line 2
+    if item in pics = '*.jpg'
+                    ^
+SyntaxError: invalid syntax
+>>> for item in pics
+  File "<stdin>", line 1
+    for item in pics
+                   ^
+SyntaxError: invalid syntax
+>>> for item in pics:
+...     if line 
+  File "<stdin>", line 2
+    if line 
+           ^
+SyntaxError: invalid syntax
+>>> 
+>>> for line in pics
+  File "<stdin>", line 1
+    for line in pics
+                   ^
+SyntaxError: invalid syntax
+>>> for line in pics:
+...     if item.endswith(('.jpg')) :
+...             print word
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'item' is not defined
+>>> for line in pics 
+  File "<stdin>", line 1
+    for line in pics
+                   ^
+SyntaxError: invalid syntax
+>>> for line in pics:
+...     if line.endswith(('.jpg')) :
+...             print line
+... 
+IMG_0014.jpg
+IMG_0028.jpg
+IMG_0029.jpg
+IMG_0015.jpg
+IMG_0003.jpg
+IMG_0017.jpg
+IMG_0016.jpg
+IMG_0002.jpg
+IMG_0006.jpg
+IMG_0012.jpg
+IMG_0013.jpg
+IMG_0007.jpg
+IMG_0011.jpg
+IMG_0005.jpg
+IMG_0004.jpg
+IMG_0010.jpg
+a1.amicorum.TOK67.s.jpg
+IMG_0021.jpg
+IMG_0009.jpg
+IMG_0008.jpg
+IMG_0020.jpg
+IMG_0022.jpg
+IMG_0023.jpg
+IMG_0027.jpg
+IMG_0033.jpg
+IMG_0032.jpg
+IMG_0026.jpg
+IMG_0018.jpg
+IMG_0030.jpg
+IMG_0024.jpg
+IMG_0025.jpg
+IMG_0031.jpg
+IMG_0019.jpg
+>>> pics = (lis)for line in pics:
+  File "<stdin>", line 1
+    pics = (lis)for line in pics:
+                  ^
+SyntaxError: invalid syntax
+>>>     if line.endswith(('.jpg')):
+  File "<stdin>", line 1
+    if line.endswith(('.jpg')):
+    ^
+IndentationError: unexpected indent
+>>>             print line
+  File "<stdin>", line 1
+    print line
+    ^
+IndentationError: unexpected indent
+>>> pics = for line in pics:
+  File "<stdin>", line 1
+    pics = for line in pics:
+             ^
+SyntaxError: invalid syntax
+>>>     if line.endswith(('.jpg')):
+  File "<stdin>", line 1
+    if line.endswith(('.jpg')):
+    ^
+IndentationError: unexpected indent
+>>>             print line
+  File "<stdin>", line 1
+    print line
+    ^
+IndentationError: unexpected indent
+>>> pics2 = for line in pics:
+  File "<stdin>", line 1
+    pics2 = for line in pics:
+              ^
+SyntaxError: invalid syntax
+>>>     if line.endswith(('.jpg')):
+  File "<stdin>", line 1
+    if line.endswith(('.jpg')):
+    ^
+IndentationError: unexpected indent
+>>>             print line
+  File "<stdin>", line 1
+    print line
+    ^
+IndentationError: unexpected indent
+>>> def filter:
+  File "<stdin>", line 1
+    def filter:
+              ^
+SyntaxError: invalid syntax
+>>>     for line in pics:
+  File "<stdin>", line 1
+    for line in pics:
+    ^
+IndentationError: unexpected indent
+>>>             if line.endswith(('.jpg')):
+  File "<stdin>", line 1
+    if line.endswith(('.jpg')):
+    ^
+IndentationError: unexpected indent
+>>>                     print line
+  File "<stdin>", line 1
+    print line
+    ^
+IndentationError: unexpected indent
+>>> def filter():
+...     for line in pics:
+...             if line.endswith(('.jpg')):
+...                     print line
+... 
+>>> filter
+<function filter at 0x10a9dbc08>
+>>> filter
+<function filter at 0x10a9dbc08>
+>>> def pics():
+...     for line in pics:
+...             if line.endswith(('.jpg')):
+...                     print line
+... 
+>>> pics
+<function pics at 0x10a9dd6e0>
+>>> pics
+<function pics at 0x10a9dd6e0>
+>>> pics = os.listdir("/Users/carlyd95/git/carltons-karoo/4sell")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 2] No such file or directory: '/Users/carlyd95/git/carltons-karoo/4sell'
+>>> pics = os.listdir("/Users/carlyd95/git/carltons-karoo/pics")
+>>> def pics():
+...     for line in pics:
+...             if line.endswith(('.jpg')):
+...                     print line
+... 
+>>> pics
+<function pics at 0x10a9dd0c8>
+>>> for line in (os.listdir("/Users/carlyd95/git/carltons-karoo/pics")):
+...             if line.endswith(('.jpg')):
+...                     print line
+... 
+IMG_0014.jpg
+IMG_0028.jpg
+IMG_0029.jpg
+IMG_0015.jpg
+IMG_0003.jpg
+IMG_0017.jpg
+IMG_0016.jpg
+IMG_0002.jpg
+IMG_0006.jpg
+IMG_0012.jpg
+IMG_0013.jpg
+IMG_0007.jpg
+IMG_0011.jpg
+IMG_0005.jpg
+IMG_0004.jpg
+IMG_0010.jpg
+a1.amicorum.TOK67.s.jpg
+IMG_0021.jpg
+IMG_0009.jpg
+IMG_0008.jpg
+IMG_0020.jpg
+IMG_0022.jpg
+IMG_0023.jpg
+IMG_0027.jpg
+IMG_0033.jpg
+IMG_0032.jpg
+IMG_0026.jpg
+IMG_0018.jpg
+IMG_0030.jpg
+IMG_0024.jpg
+IMG_0025.jpg
+IMG_0031.jpg
+IMG_0019.jpg
+>>> for line in (os.listdir("/Users/carlyd95/git/carltons-karoo/pics")):
+...             if line.endswith(('.jpg')):
+...                     print line.replace('.', ' ')
+... 
+IMG_0014 jpg
+IMG_0028 jpg
+IMG_0029 jpg
+IMG_0015 jpg
+IMG_0003 jpg
+IMG_0017 jpg
+IMG_0016 jpg
+IMG_0002 jpg
+IMG_0006 jpg
+IMG_0012 jpg
+IMG_0013 jpg
+IMG_0007 jpg
+IMG_0011 jpg
+IMG_0005 jpg
+IMG_0004 jpg
+IMG_0010 jpg
+a1 amicorum TOK67 s jpg
+IMG_0021 jpg
+IMG_0009 jpg
+IMG_0008 jpg
+IMG_0020 jpg
+IMG_0022 jpg
+IMG_0023 jpg
+IMG_0027 jpg
+IMG_0033 jpg
+IMG_0032 jpg
+IMG_0026 jpg
+IMG_0018 jpg
+IMG_0030 jpg
+IMG_0024 jpg
+IMG_0025 jpg
+IMG_0031 jpg
+IMG_0019 jpg
+>>> for line in (os.listdir("/Users/carlyd95/git/carltons-karoo/pics")):
+...             if line.endswith(('.jpg')):
+...                     print line.replace('.', ' ').replace('jpg', '')
+... 
+IMG_0014 
+IMG_0028 
+IMG_0029 
+IMG_0015 
+IMG_0003 
+IMG_0017 
+IMG_0016 
+IMG_0002 
+IMG_0006 
+IMG_0012 
+IMG_0013 
+IMG_0007 
+IMG_0011 
+IMG_0005 
+IMG_0004 
+IMG_0010 
+a1 amicorum TOK67 s 
+IMG_0021 
+IMG_0009 
+IMG_0008 
+IMG_0020 
+IMG_0022 
+IMG_0023 
+IMG_0027 
+IMG_0033 
+IMG_0032 
+IMG_0026 
+IMG_0018 
+IMG_0030 
+IMG_0024 
+IMG_0025 
+IMG_0031 
+IMG_0019 
+>>> for line in (os.listdir("/Users/carlyd95/git/carltons-karoo/pics")):
+...             if line.endswith(('.jpg')):
+...                     print line.replace('.', ' ').replace('jpg', '')
+... 
+IMG_0014 
+IMG_0028 
+IMG_0029 
+IMG_0015 
+IMG_0003 
+IMG_0017 
+IMG_0016 
+IMG_0002 
+IMG_0006 
+IMG_0012 
+IMG_0013 
+IMG_0007 
+IMG_0011 
+IMG_0005 
+a 1 amicorum TOK67 s 
+IMG_0004 
+IMG_0010 
+IMG_0021 
+IMG_0009 
+IMG_0008 
+IMG_0020 
+IMG_0022 
+IMG_0023 
+IMG_0027 
+IMG_0033 
+IMG_0032 
+IMG_0026 
+IMG_0018 
+IMG_0030 
+IMG_0024 
+IMG_0025 
+IMG_0031 
+IMG_0019 
+>>> f = []
+>>> f[0] = "j"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
+>>> f
+[]
+>>> f(0) = p
+  File "<stdin>", line 1
+SyntaxError: can't assign to function call
+>>> f(0) = 'K'
+  File "<stdin>", line 1
+SyntaxError: can't assign to function call
+>>> f[0] = 'P'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
+>>> f[1] = 'p'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
+>>> f.append
+<built-in method append of list object at 0x10a9f50e0>
+>>> f.append 'l'
+  File "<stdin>", line 1
+    f.append 'l'
+               ^
+SyntaxError: invalid syntax
+>>> f.append('j')
+>>> f
+['j']
+>>> f[0]
+'j'
+>>> f[0] = i
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'i' is not defined
+>>> f
+['j']
+>>> f 
+['j']
+>>> for index in f
+  File "<stdin>", line 1
+    for index in f
+                 ^
+SyntaxError: invalid syntax
+>>> for index in f:
+...     
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block
+>>> f[0]='k'
+>>> f
+['k']
+>>> 
+
