@@ -104,13 +104,10 @@ a:visited {
 
 h2.repoDescriptionHeader {
 	text-align: left;
-	padding-top:15px;
-    position: absolute;
+    vertical-align: middle;
 	font-size: auto;
-	width: 170px;
-
-	display: inline-block;
-    padding-left: 10px;
+	display: inline-table;
+    padding-left: 20px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -119,6 +116,7 @@ h2.repoDescriptionHeader {
 h2.repoScreenshotsHeader {
 	font-size: 17px;
 	text-align: center;
+    line-height: 100px;
 	display: inline;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
@@ -148,29 +146,16 @@ img.repoScreenshots{
 	vertical-align:middle;
 }
 
-img.image{
-	vertical-align: middle;
-	max-height: 120px;
-	max-width: 120px;
-  	margin: 15px;
-  	margin-left: 10px;
-  }
 
 img.croppedImage{
 	vertical-align: middle;
-	
 	-webkit-clip-path: circle(50%);
   	clip-path: circle(50%);
 	-ms-clip-path: circle(50%);
 	-o-clip-path: circle(50%);
-	
-	
-	max-width: 125px;
-	max-height: 125px;
-  	margin-top:5px;
-    position:
-  	margin-bottom:5px;
-
+  	margin-top:10px;
+  	margin-bottom:10px;
+    height:125px;
 }
 
 ul,li { 
@@ -193,14 +178,22 @@ span.right{
 	right: 15px;
 	vertical-align: middle;
 	line-height: 120px;
+    font-size:150px;
 	
 }
 
+h1.center{
+    top:35px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
 
+}
 .overlay {
 	display:inline;
     height: 100%;
-    width: 0;
+    width: 0px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -211,17 +204,16 @@ span.right{
 }
 
 .overlay-content {
-    position: relative;
-    top: 25%;
+    position:relative;
+    top:132px;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
 }
 
 .overlay a {
     padding: 12px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 25px;
     color: black;
     display: block;
     transition: 0.3s;
@@ -233,7 +225,7 @@ span.right{
 
 .overlay .closebtn {
     position: absolute;
-    top: 25px;
+    top: 20px;
     right: 5px;
     font-size: 60px;
 }
@@ -243,5 +235,5 @@ span.right{
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
-    right: 35px;
+    right: 5px;
   }
