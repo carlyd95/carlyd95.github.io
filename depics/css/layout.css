@@ -107,6 +107,13 @@ img.repoScreenshots{
 	vertical-align:middle;
 }
 
+img.croppedImage{
+	height: 8px;
+	width: 8px;
+	vertical-align:middle;
+	clip-path: circle(center at 60px);
+}
+
 ul,li { 
 	list-style-type: none;
 	list-style-position:inside;
