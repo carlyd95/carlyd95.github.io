@@ -219,8 +219,8 @@ h1.center{
     transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
-    color: #727272;
+.overlay a:focus {
+    color: ;
 }
 
 .overlay .closebtn {
