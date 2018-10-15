@@ -81,7 +81,12 @@ end='''</ul>
 
 info={'seeds':'The shipping is $2 for up to 6 packs of seeds. $0.50 for each additional 4 packs. Seed amount per pack differs according to familial rank and is displayed to the right of each botanical family. If seeds are the product of unknown hybridization the mother plant will be displayed.','plants':'The minimum shipping costs for any plant ordrs is $8. The plant for sale is in the picture displayed'}
 
-
+def decy(filename):
+	splitname=filename.replace('.JPG', '').split('!')
+	splitname[1] = splitname[1][:1].upper() + splitname[1][1:]
+	splitname[3] = '$' + splitname[3]
+	splitname.append(filename)
+	return splitname
 
 def addtosite(dicform):
 	formy=dicform['form']
@@ -102,28 +107,18 @@ def addtosite(dicform):
 	for key in occup:
 		html.write( fambegin + dicform[key][0][1:] + titleend)
 		x = decy(dicform[key][1])
-		html.write('<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a>\t' + x[3])
+		html.write('<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a>&nbsp;|&nbsp;' + x[3])
 		for index in dicform[key]:
 			if dicform[key].index(index) > 1:
 				x = decy(index)
-				html.write('<hr>\n<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a>\t' + x[3])
+				html.write('<hr>\n<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a>&nbsp;|&nbsp;' + x[3])
 		html.write(famend)
 	html.write(end)
 	html.close()
 
 
 
-def decy(filename):
-	splitname=filename.replace('.JPG', '').split('!')
-	splitname[1] = splitname[1][:1].upper() + splitname[1][1:]
-	splitname[3] = '$' + splitname[3]
-	splitname.append(filename)
-	return splitname
 
-def orgpics(form):
-	for line in (os.listdir(dirx + 'pics/' + form['form'])):
-		if line != '.DS_Store':
-			form[line[:3]].append(line)
 
 dirx=os.environ['HOME'] +'/git/carltons-karoo/'
 seeds={'form':'seeds','asp':['0Asphodelaceae | 10 seeds'],'asc':['0Asclepiadaceae | 10 seeds'],'aiz':['0Aizoaceae | 25 seeds'],'eup':['0Euphorbiaceae | 5 seeds'],'cra':['0Crassulaceae | 10 seeds'],'hya':['0Hyacinthaceae 10 seeds'],'por':['0Portulacaceae | 10 seeds'],'cac':['0Cactaceae | 10 seeds']}
