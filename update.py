@@ -125,7 +125,7 @@ seeds={'form':'seeds','asp':['0Asphodelaceae | 10 seeds'],'asc':['0Asclepiadacea
 plants={'form':'plants','asp':['0Asphodelaceae'],'asc':['0Asclepiadaceae'],'aiz':['0Aizoaceae'],'eup':['0Euphorbiaceae'],'cra':['0Crassulaceae'],'hya':['0Hyacinthaceae'],'por':['0Portulacaceae'],'cac':['0Cactaceae']}
 addtosite(seeds)
 addtosite(plants)
-#os.system('cd ' + os.environ['HOME'] + '/git && ./updategit.sh')
+os.system('cd ' + os.environ['HOME'] + '/git && ./updategit.sh')
 
 
 
