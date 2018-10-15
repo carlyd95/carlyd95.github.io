@@ -111,7 +111,7 @@ def addtosite(dicform):
 		for index in dicform[key]:
 			if dicform[key].index(index) > 1:
 				x = decy(index)
-				html.write('<hr>\n<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a>&nbsp;&nbsp;' + x[3])
+				html.write('<hr>\n<a href="' + (linkfix + x[4].replace('"', '&#34;').replace('?', '%3F')) + '">' + (x[1] + ' ' + x[2]) + '</a>&nbsp;&nbsp;' + x[3])
 		html.write(famend)
 	html.write(end)
 	html.close()
