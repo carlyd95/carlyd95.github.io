@@ -96,6 +96,7 @@ def addtosite(dicform):
 	linkfix='pics/' + formy + '/'
 	html.write(begin.replace('ZOIKS', formy.capitalize()).replace('FINDMEHAHA', formy).replace('BISNITCH',info[formy]))
 	for key in occup:
+		dicform[key]
 		html.write( fambegin + dicform[key][0] + titleend)
 		x = decy(dicform[key][1])
 		html.write('<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a> ' + x[3])
