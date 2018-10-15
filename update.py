@@ -81,9 +81,13 @@ end='''</ul>
 
 info={'seeds':'The shipping is $2 for up to 6 packs of seeds. $0.50 for each additional 4 packs. Seed amount per pack differs according to familial rank and is displayed to the right of each botanical family. If seeds are the product of unknown hybridization the mother plant will be displayed.','plants':'The minimum shipping costs for any plant ordrs is $8. The plant for sale is in the picture displayed'}
 
+
+
 def addtosite(dicform):
 	formy=dicform['form']
-	for line in (os.listdir(dirx + 'pics/' + formy)):
+	filelist=os.listdir(dirx + 'pics/' + formy)
+	filelist.sort()
+	for line in filelist:
 		if line != '.DS_Store':
 			dicform[line[:3]].append(line)
 	occup=[]
@@ -96,14 +100,13 @@ def addtosite(dicform):
 	linkfix='pics/' + formy + '/'
 	html.write(begin.replace('ZOIKS', formy.capitalize()).replace('FINDMEHAHA', formy).replace('BISNITCH',info[formy]))
 	for key in occup:
-		dicform[key]
-		html.write( fambegin + dicform[key][0] + titleend)
+		html.write( fambegin + dicform[key][0][1:] + titleend)
 		x = decy(dicform[key][1])
-		html.write('<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a> ' + x[3])
+		html.write('<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a>\t' + x[3])
 		for index in dicform[key]:
 			if dicform[key].index(index) > 1:
 				x = decy(index)
-				html.write('<hr>\n<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a> ' + x[3])
+				html.write('<hr>\n<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a>\t' + x[3])
 		html.write(famend)
 	html.write(end)
 	html.close()
@@ -123,10 +126,8 @@ def orgpics(form):
 			form[line[:3]].append(line)
 
 dirx=os.environ['HOME'] +'/git/carltons-karoo/'
-seeds={'form':'seeds','asp':['Asphodelaceae | 10 seeds'],'asc':['Asclepiadaceae | 10 seeds'],'aiz':['Aizoaceae | 25 seeds'],'eup':['Euphorbiaceae | 5 seeds'],'cra':['Crassulaceae | 10 seeds'],'hya':['Hyacinthaceae 10 seeds'],'por':['Portulacaceae | 10 seeds'],'cac':['Cactaceae | 10 seeds']}
-plants={'form':'plants','asp':['Asphodelaceae'],'asc':['Asclepiadaceae'],'aiz':['Aizoaceae'],'eup':['Euphorbiaceae'],'cra':['Crassulaceae'],'hya':['Hyacinthaceae'],'por':['Portulacaceae'],'cac':['Cactaceae']}
-orgpics(seeds)
-orgpics(plants)
+seeds={'form':'seeds','asp':['0Asphodelaceae | 10 seeds'],'asc':['0Asclepiadaceae | 10 seeds'],'aiz':['0Aizoaceae | 25 seeds'],'eup':['0Euphorbiaceae | 5 seeds'],'cra':['0Crassulaceae | 10 seeds'],'hya':['0Hyacinthaceae 10 seeds'],'por':['0Portulacaceae | 10 seeds'],'cac':['0Cactaceae | 10 seeds']}
+plants={'form':'plants','asp':['0Asphodelaceae'],'asc':['0Asclepiadaceae'],'aiz':['0Aizoaceae'],'eup':['0Euphorbiaceae'],'cra':['0Crassulaceae'],'hya':['0Hyacinthaceae'],'por':['0Portulacaceae'],'cac':['0Cactaceae']}
 addtosite(seeds)
 addtosite(plants)
 os.system('cd ' + os.environ['HOME'] + '/git && ./updategit.sh')
