@@ -107,7 +107,7 @@ def addtosite(dicform):
 	for key in occup:
 		html.write( fambegin + dicform[key][0][1:] + titleend)
 		x = decy(dicform[key][1])
-		html.write('<a href="' + (linkfix + x[4].replace('"', '&#34;')) + '">' + (x[1] + ' ' + x[2]) + '</a>&nbsp;&nbsp;' + x[3])
+		html.write('<a href="' + (linkfix + x[4].replace('"', '&#34;').replace('?', '%3F')) + '">' + (x[1] + ' ' + x[2]) + '</a>&nbsp;&nbsp;' + x[3])
 		for index in dicform[key]:
 			if dicform[key].index(index) > 1:
 				x = decy(index)
