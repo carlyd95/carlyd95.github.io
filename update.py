@@ -81,7 +81,7 @@ end='''</ul>
 info={'seeds':'The shipping is $2 for up to 6 packs of seeds. $0.50 for each additional 4 packs. Seed amount per pack differs according to familial rank and is displayed to the right of each botanical family. If seeds are the product of unknown hybridization the mother plant will be displayed.','plants':'The minimum shipping costs for any plant ordrs is $8. The plant for sale is in the picture displayed'}
 
 def decy(filename):
-	splitname=filename.replace('.JPG', '').split('!')
+	splitname=filename.replace(filename[-4:], '').split('!')
 	splitname[1] = splitname[1][:1].upper() + splitname[1][1:]
 	splitname[3] = '$' + splitname[3]
 	splitname.append(filename)
