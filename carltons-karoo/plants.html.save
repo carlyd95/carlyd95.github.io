@@ -27,9 +27,7 @@ content="text/html;charset=utf-8" />
 			<div id="contentSingle">
 				<h3 class="textHeaderLabel">Order Information</h3>
 			</div>
-			<div id="contentBottom">
-				<ul>
-					<li>
+			<div id="contentBot
 						<p>For the time being U.S. orders only...
 								<br>
 								<br>
@@ -85,6 +83,11 @@ content="text/html;charset=utf-8" />
 <a href="pics/plants/eup!euphorbia!species 1!10 | shown in a 3&#34; pot.JPG">Euphorbia species 1</a>&nbsp;&nbsp;$10 | shown in a 3" pot<hr>
 <a href="pics/plants/eup!euphorbia!species 2!8 | shown in a 3.5&#34; pot.JPG">Euphorbia species 2</a>&nbsp;&nbsp;$8 | shown in a 3.5" pot<hr>
 <a href="pics/plants/eup!euphorbia!species 3!15 | 1' tall plant.JPG">Euphorbia species 3</a>&nbsp;&nbsp;$15 | 1' tall plant</ul>
+					</div><div id="contentSingle">
+						     <h3 class="textHeaderLabel">Portulacaceae</h3>
+					 </div>
+					 <div id="contentBottom">
+					 	<ul><a href="pics/plants/por!anacampseros!rufescens!8.JPG">Anacampseros rufescens</a>&nbsp;&nbsp;$8</ul>
 					</div></ul>
 					</div>
 					</li>
