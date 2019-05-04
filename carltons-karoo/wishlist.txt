@@ -1,23 +1,17 @@
-H. fasciata "browniana"
 H. bayeri
-H. emelyae v. multifolia
-H. emelyae v. emelyae
+H. picta
 H. koelmaniorum v. mcmurtryi
-H. limifolia v. gigantea
-H. magnifica v. magnifica
-H. mirabilis v. beukmannii
-H. mirabilis v. badia
-H. mirabilis v. sublineata
-H. mirabilis v. triebneriana
-H. mucronata
+H. beukmannii
+H. badia
+H. sublineata
+H. quimutica
+retusa v. nigra
 H. parksiana
 H. pumila "robertson"
-H. pungens
-H. pygmaea v. dekenahii
+H. dekenahii
 H. reinwardtii v. brevicula
 H. scabra v. scabra
 H. scabra v. lateganiae
-H. scabra v. morrisiae
 H. sordida v. lavranii
 H. venosa ssp. granulata
 H. venosa ssp. woolleyi
@@ -25,9 +19,25 @@ H. enigma
 Haworthia mirabilis 'joleneae'
 Haworthia fusca I.Breuer
 Haworthia indigoa
+H. truteriorum
+H. mutica
+H. springbok
+mirabilis f. 'joleneae'
+mirabilis f. 'hammeri'
+splendens
+groenewaldii
+enigma
+
+Tulist opalina
+kingiana
 
 
-Poellnitza rubraflora
+
+Astroloba (Poellnitza) rubraflora
+A. spirilis
+A. bullata
+
+
 
 H. 'Mootica'
 H. 'Kelikete'
