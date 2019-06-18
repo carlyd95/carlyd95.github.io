@@ -5,22 +5,49 @@
 		Carlton's Karoo
 		</title>
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0", charset="UTF-8">
-		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" type="text/css" href="depics/css/layoutNew.css">
 		<link rel="icon" href='/favicon.jpg' type='image/jpg' />
 	</head>
 	<body>
+		
+		<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">Biography</a>
+  <a href="#" class="w3-bar-item w3-button">Plants</a>
+  <a href="#" class="w3-bar-item w3-button">Seeds</a>
+  <a href="#" class="w3-bar-item w3-button">Germination Tips</a>
+  <a href="#" class="w3-bar-item w3-button">Useful Resources</a>
+  <a href="#" class="w3-bar-item w3-button">Contact</a>
+  <hr>
+  <a href="#" class="w3-bar-item w3-button">C & D Brews</a>
+  <a href="#" class="w3-bar-item w3-button">Cydia Repo</a>
+  <a href="#" class="w3-bar-item w3-button">Karaoke List</a>
+
+</div>
+
+
  
 		<div class="outer">
 		<div class="middle">
 		<div id="container">
 			
+
 			<div id="contentSingleTop">
+
+<!-- Page Content -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+<div>
+  <button class="btn:hover btn" onclick="w3_open()">&#9776;</button>
+
 				<img class="image" src="depics/images/cklogo/ck.png">
 				<h2
-class="repoDescriptionHeader">Carlton&apos;s<br>Karoo</h2>
+class="repoDescriptionHeader">Carlton&apos;s Karoo</h2>
 			
 			</div><!--Close Package Header Div-->
+		</div>
 			<div id="contentSingle">
 				<h3 class="textHeaderLabel">Introduction</h3>
 			</div>
@@ -33,70 +60,21 @@ class="repoDescriptionHeader">Carlton&apos;s<br>Karoo</h2>
                         <div id="contentBottom">
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/900bbe27c2905b3c8f2e081812e0f82c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 			</div>
-			<div id="contentSingle">
-				<h3 class="textHeaderLabel">Carlton's Karoo: Seeds & Plants</h3>
-			</div>
-				<div id="contentBottom">
-  						<a href="/carltons-karoo/seeds.html">Seeds</a>
-					    	<hr>
-					    <a href="/carltons-karoo/plants.html">Plants</a>
-					    	<hr>
-				    	<a href="https://www.instagram.com/fat_leaves_and_long_spines/" target="_blank">Plantstagram</a>
-							<hr>
-				        <a href="http://carlyd95.github.io/carltons-karoo/lithops.pdf" target="_blank">Lithops PDF</a>
-					    	<hr>
-					    <a href="/carltons-karoo/sowing.html">Sowing Tips (Coming Soon...)</a>
-					    	<hr>
-					    <a href="/carltons-karoo/wishlist.txt">Plant Wishlist</a>
-					    	<hr>
-					    <a href="/carltons-karoo/cultivation.html">Cultivation Tips (Coming Soon...)</a>	
-				</div><!--Close Package Header Div-->
-
-			<div id="contentSingle">
-				<h3 class="textHeaderLabel">Homebrew Recipes</h3>
-			</div>
-				<div id="contentBottom">
-						<a href="https://carlyd95.github.io/beer/recipes/SourNEIPA.txt" target="_blank">NEIPA Sour</a>
-							<hr>
-						<a href="http://carlyd95.github.io/KaraokeList.csv" target="_blank">Cream Ale</a>
-							<hr>							
-						<a href="https://carlyd95.github.io/beer/recipes/Gose.txt" target="_blank">Gose</a>
-							<hr>							
-						<a href="https://paypal.me/dunlap794/" target="_blank">IPA</a>
-							<hr>							
-						<a href="https://github.com/carlyd95/" target="_blank">American Sour Ale (High Gravity)</a>
-							<hr>							
-						<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://carlyd95.github.io/repo/" target="_blank">hefeweisen</a>	
-				</div><!--Close Package Header Div-->
-				<div id="contentSingle">
-                                <h3 class="textHeaderLabel">Homebrew Recipes</h3>
-                        </div>
-                                <div id="contentBottom">
-                                                <a href="https://carlyd95.github.io/beer" target="_blank">Homebrew Recipes</a>
-                                                        <hr>
-                                                <a href="http://carlyd95.github.io/KaraokeList.csv" target="_blank">Karaoke Song List</a>
-                                                        <hr>
-                                                <a href="https://dailytext.000webhostapp.com/" target="_blank">Daily Text Email Subscription</a>
-                                                        <hr>
-                                                <a href="https://paypal.me/dunlap794/" target="_blank">Buy Me A 🍺</a>
-                                                        <hr>
-                                                <a href="https://github.com/carlyd95/" target="_blank">My GitHub</a>
-                                                        <hr>
-                                                <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://carlyd95.github.io/repo/" target="_blank">Add My Repo (old cydia repo)</a>
-                                </div><!--Close Package Header Div-->
-				<div id="contentSingle">
-                                <h3 class="textHeaderLabel">Homebrew Recipes</h3>
-                        </div>
-                                <div id="contentBottom">
-									<a href="sms:dcarltondunlap@me.com" target="_blank">iMessage</a>
-										<hr>
-									<a href="email:dcarltondunlap@me.com" target="_blank">Email</a>	
-				</div><!--Close Package Header Div-->
-
 			</div><!--Close Container Div-->
 			</div>
-
 			</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
 
 	</body>
 	

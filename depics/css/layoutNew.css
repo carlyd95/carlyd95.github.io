@@ -101,6 +101,8 @@ a:visited {
     border-top: 1px solid #c4c4c6 !important;
     background-color: #ebb5b5 !important;
 }
+.btn{border:none;border-radius:10px;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.btn:hover{box-shadow:none;}
 
 h2.repoDescriptionHeader {
 	text-align: left;
@@ -162,7 +164,7 @@ img.image{
     vertical-align: middle;
     margin-top:10px;
     margin-bottom:10px;
-    height:125px;
+    height:105px;
 
 ul,li { 
 	list-style-type: none;
