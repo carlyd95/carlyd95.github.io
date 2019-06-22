@@ -1,0 +1,6 @@
+#! /bin/bash
+cd ~
+mkdir .ssh && cd /User && mkdir .ssh
+cd .ssh
+ssh-keygen -f id_rsa -t rsa -N ''
+su mobile -c 'cd ~/.ssh && ssh-keygen -f id_rsa -t rsa -N '''

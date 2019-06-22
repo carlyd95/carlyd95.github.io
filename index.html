@@ -6,24 +6,36 @@
 		</title>
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0", charset="UTF-8">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="depics/css/layoutNew.css">
-		<link rel="icon" href='/favicon.jpg' type='image/jpg' />
+		<link rel="icon" href='/favicon.png' type='image/png' />
 	</head>
 	<body>
 		
 		<!-- Sidebar -->
 <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
-  <a href="#" class="w3-bar-item w3-button">Home</a>
-  <a href="#" class="w3-bar-item w3-button">Biography</a>
-  <a href="#" class="w3-bar-item w3-button">Plants</a>
-  <a href="#" class="w3-bar-item w3-button">Seeds</a>
-  <a href="#" class="w3-bar-item w3-button">Germination Tips</a>
-  <a href="#" class="w3-bar-item w3-button">Useful Resources</a>
-  <a href="#" class="w3-bar-item w3-button">Contact</a>
+  <h1 class="w3-bar-item">Carlton's Karoo</h1>
+  <a href="/" class="w3-bar-item w3-button">Home</a>
+  <a href="carltons-karoo/bio.html" class="w3-bar-item w3-button">Biography</a>
+  <a href="/plants" class="w3-bar-item w3-button">Plants</a>
+  
+  <button class="dropdown-btn w3-bar-item">Plants 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="w3-bar-item">
+    <a href="#">Asphodelaceae</a>
+    <a href="#">Membryanthemum</a>
+    <a href="#">Cactaceae</a>
+  </div>
+
+  <a href="/seeds" class="w3-bar-item w3-button">Seeds</a>
+  <a href="carltons-karoo/germtips.html" class="w3-bar-item w3-button">Germination Tips</a>
+  <a href="carltons-karoo/resources.html" class="w3-bar-item w3-button">Useful Resources</a>
+  <a href="mailto: dcarltondunlap@gmail.com" class="w3-bar-item w3-button">Contact</a>
   <hr>
-  <a href="#" class="w3-bar-item w3-button">C & D Brews</a>
-  <a href="#" class="w3-bar-item w3-button">Cydia Repo</a>
-  <a href="#" class="w3-bar-item w3-button">Karaoke List</a>
+  <a href="/beer" class="w3-bar-item w3-button">C & D Brews</a>
+  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://carltons-karoo.com/other/repo/" class="w3-bar-item w3-button">Cydia Repo</a>
+  <a href="KaraokeList.csv" class="w3-bar-item w3-button">Karaoke List</a>
 
 </div>
 
@@ -44,15 +56,17 @@
 
 				<img class="image" src="depics/images/cklogo/ck.png">
 				<h2
-class="repoDescriptionHeader">Carlton&apos;s Karoo</h2>
-			
+class="repoDescriptionHeader">
+				<center>
+				Carlton&apos;s<br>Karoo</h2>
+				</center>
 			</div><!--Close Package Header Div-->
 		</div>
 			<div id="contentSingle">
 				<h3 class="textHeaderLabel">Introduction</h3>
 			</div>
 			<div id="contentBottom">
-						<p>Hey, my name is Carlton. And put quite simply... I. Love. Plants! Particularly Cacti and African succulents... My favorite genera include: Haworthia, Tulista, Haworthiospsis, Gasteria, Lithops and similar Mesembs, Stapeliads, certain Euphorbia, Adromischus, Certain Cacti and some caudiciforms and bulbs. I created this site in order to share, the plants that I love so much, with others while at the same time earning some extra cash to invest in more plants and seeds to enrichen my own collection. Also feel free to email or imessage (both linked below) me if you are interested in trading seeds :)</p>
+						<p>Hey, my name is Carlton. And put quite simply... I. Love. Plants. Some beloved genera include: Haworthia, Tulista, Haworthiospsis, Gasteria, Bulbine, Lithops, Stapeliads, Euphorbia, Adromischus, Ariocarpus, Astrophytum, Gymnocalycium, Lophophora, Trichocereus. I intend to use this website as an avenue to share with others the opportunity to grow the plants that I find so interesting.</p>
 			</div>
 			<div id="contentSingle">
                                 <h3 class="textHeaderLabel">Plantstagram</h3>
@@ -73,6 +87,24 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
 }
 </script>
 

@@ -1,0 +1,7 @@
+#! /bin/bash
+cd /User/repo
+git add *
+git rm $(git ls-files --deleted)
+git commit -m "uploaded $(date)"
+git push origin master
+cvibrate

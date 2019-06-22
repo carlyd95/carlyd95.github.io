@@ -1,0 +1,10 @@
+Package: com.carlyd95.sendrsa
+Name: sendrsa
+Version: 3.2
+Architecture: iphoneos-arm
+Description:    tool to ssh w/o password. simple command-line utility to send your rsa keys to a trusted remote device in order to ssh to the remote device without being prompted for the password.      All you have to do is type the address for the remote device. And it will make rsa keys for you if you have none and choose to do so. -now checks to see if you have a .ssh folder -checks if you have public keys
+Homepage: http://carlyd95.github.io
+Maintainer: carlyd95 <dcarltondunlap@me.com>
+Author: carlyd95 <dcarltondunlap@me.com>
+Section: Terminal Support
+Depends: openssh

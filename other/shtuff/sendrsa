@@ -1,0 +1,68 @@
+#! /bin/sh
+
+echo "Hello, "$USER" welcome to sendrsa!"
+
+if [ -d ".ssh" ]
+then if [ -f ~/.ssh/id_rsa.pub ];
+then echo "Send RSA to?"
+
+read ADDRESS
+
+cat ~/.ssh/id_rsa.pub |  ssh $ADDRESS 'cat >> ~/.ssh/authorized_keys' && echo "RSA sent to $ADDRESS!"
+
+
+else read -p "no RSA keys. Would you like to create some (y/n)?" CONT
+if [ "$CONT" == "y" ];
+then yes "" | ssh-keygen && chmod 700 ~/.ssh
+
+chmod 600 ~/.ssh/id_rsa 
+chmod 644 ~/.ssh/id_rsa.pub 
+chmod 644 ~/.ssh/authorized_keys 
+chmod 644 ~/.ssh/known_hosts
+
+echo "Send RSA to?"
+
+read ADDRESS
+
+cat ~/.ssh/id_rsa.pub |  ssh $ADDRESS 'cat >> ~/.ssh/authorized_keys' && echo "RSA sent to $ADDRESS!"
+
+else exit
+
+fi
+        
+fi
+
+else mkdir ".ssh"
+
+if [ -f ~/.ssh/id_rsa.pub ];
+then echo "Send RSA to?"
+
+read ADDRESS
+
+cat ~/.ssh/id_rsa.pub |  ssh $ADDRESS 'cat >> ~/.ssh/authorized_keys' && echo "RSA sent to $ADDRESS!"
+
+
+else read -p "no RSA keys. Would you like to create some (y/n)?" CONT
+if [ "$CONT" == "y" ];
+then yes "" | ssh-keygen && chmod 700 ~/.ssh
+
+chmod 600 ~/.ssh/id_rsa 
+chmod 644 ~/.ssh/id_rsa.pub 
+chmod 644 ~/.ssh/authorized_keys 
+chmod 644 ~/.ssh/known_hosts
+
+echo "Send RSA to?"
+
+read ADDRESS
+
+cat ~/.ssh/id_rsa.pub |  ssh $ADDRESS 'cat >> ~/.ssh/authorized_keys' && echo "RSA sent to $ADDRESS!"
+
+else exit
+
+fi
+        
+fi
+
+fi
+
+exit
