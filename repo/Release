@@ -1,8 +1,0 @@
-Origin: carlyd95's Repo
-Label: carlyd95
-Suite: stable
-Version: 2.0
-Codename: carlyd95's Cydia repo
-Architectures: iphoneos-arm iphoneos-arm64
-Components: main
-Description: Cydia repo maintained by Carlton Dunlap through GitHub Pages for free! 🍄
