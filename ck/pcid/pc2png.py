@@ -19,7 +19,7 @@ for plant in f:
 	pa = p[5]
 	lo = p[6]
 	no = p[7]
-	filename = '/home/pi/git/ck/pcid/labels/' + cn + '.png'
+	filename = '/home/pi/git/ck/pcid/newl/' + cn + '.png'
 	if path.exists(filename) is False:
 		if ' aff.' in sp:
 			sp = sp.replace(' aff.', '-aff.')
@@ -48,4 +48,5 @@ for plant in f:
 	cnhtml = open(cndir + '/index.html', 'w+')
 	cnhtml.write(temp.replace('$cn', 'CK ' + cn).replace('$cv', cv).replace('$gn', gn).replace('$sp', p[3]).replace('$ex', ex).replace('$pa', pa).replace('$lo', lo).replace('$no', no))
 exit()
+
 

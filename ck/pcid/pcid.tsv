@@ -12,14 +12,14 @@
 10206	IB 10322	Haworthia	bayeri	IB		Uniondale, top of hill with the old fort	
 10207	EA 937	Haworthia	bayeri	JIL		Uniondale	
 10208	DMC	Haworthia	bayeri	JIL		W entrance to Baviaanskloof	
-10209	GM 391	Haworthia	bayeri	Haworthialand			
+10209	GM 391	Haworthia	bayeri	Haworthialand		near Vaalkrans, 24 km SW of Willowmore	
 10301	VDV 0249	Haworthia	pygmaea 'silviae'	IB		Humor, 24 km W of Mossel Bay	
 10302	VDV 0249	Haworthia	pygmaea 'silviae'	IB		Humor, 24 km W of Mossel Bay	
 10401	VDV 0226	Haworthia	springbokvlakensis	IB		3 km E of Springbokvlakte, Steytlerville	
 10402	IB 5642	Haworthia	springbokvlakensis	IB		Springbokvlakte, Steytlerville	
-10403	GM 390	Haworthia	springbokvlakensis	Haworthialand			
-10404	GM 390	Haworthia	springbokvlakensis	Haworthialand			
-10405	EA 976	Haworthia	springbokvlakensis	Haworthialand			
+10403	GM 390	Haworthia	springbokvlakensis	Haworthialand		Cockscombs View, E of Springbokvlakte	
+10404	GM 390	Haworthia	springbokvlakensis	Haworthialand		Cockscombs View, E of Springbokvlakte	
+10405	EA 976	Haworthia	springbokvlakensis	Haworthialand		Sandpoort, Springbokvlakte	
 10501	VDV 0056	Haworthia	picta	IB		SE of Zebra, 23 km NW of George	
 10502	VDV 0056	Haworthia	picta	IB		SE of Zebra, 23 km NW of George	
 10503	GM 259	Haworthia	picta	IB		S of Oudtshoorn	
@@ -31,26 +31,26 @@
 10509		Haworthia	picta	Melanie W.	(picta 'zebra' x picta) x ebony picta		distinct lines
 1050A		Haworthia	picta	Adam R. < Saki			#2
 1050B		Haworthia	picta	Melanie W.	(picta 'zebra' x picta) x picta		
-1050C		Haworthia	picta	eBay:uglyplantation	picta x 'Theresa'		
+1050C		Haworthia	picta	eBay:uglyplantation	picta x Theresa		
 1050D		Haworthia	picta	eBay:matised		Witkliprug, Oudtshoorn	
 1050E		Haworthia	picta	Adam R. < Saki			#1
-1050F		Haworthia	picta	Kambroo		selected seedling	
+1050F		Haworthia	picta	Kambroo			selected seedling
 10510		Haworthia	picta	Haworthialand	VDV0055 x VDV0056		
 10511	VDV 0055	Haworthia	picta	Haworthialand			
 10512	GM 267	Haworthia	picta	Haworthialand			
 10513	GM 256	Haworthia	picta	Haworthialand			
-10514	IB 06604	Haworthia	picta	Haworthialand	Mount Hope, top of hill		
+10514	IB 06604	Haworthia	picta	Haworthialand		Mount Hope, top of hill	
 10601	VDV 0029	Haworthia	bayeri 'hayashii'	IB		Red hills, 5 km S of Oudtshoorn	
 10602	VDV 0029	Haworthia	bayeri 'hayashii'	IB		Red hills, 5 km S of Oudtshoorn	
 10603	JDV 86/86	Haworthia	bayeri 'hayashii'	IB		Bakenskraal, S of Oudtshoorn	
-10604	VDV 0029	Haworthia	bayeri 'hayashii'	Haworthialand			
-10605	JDV 86/86	Haworthia	bayeri 'hayashii'	Haworthialand			
+10604	VDV 0029	Haworthia	bayeri 'hayashii'	Haworthialand		Red hills, 5 km S of Oudtshoorn	
+10605	JDV 86/86	Haworthia	bayeri 'hayashii'	Haworthialand		Bakenskraal, S of Oudtshoorn	
 10701	YO 1977-062	Haworthia	truncata	IB			
 10702	YO 1977-062	Haworthia	truncata	IB			
 10703	IB 12824	Haworthia	truncata	IB		Lategan's Farm, E of Oudtshoorn	
 10704	IB 12824	Haworthia	truncata	IB		Lategan's Farm, E of Oudtshoorn	
-10705	IB 26263	Haworthia	truncata	IB	Hakuun' x (GM 569)		
-10706	IB 26011	Haworthia	truncata	IB	Freek' x 'Snowtiger'		
+10705	IB 26263	Haworthia	truncata	IB	Hakuun x (GM 569)		
+10706	IB 26011	Haworthia	truncata	IB	Freek x Snowtiger		
 10707	JDV 85/82	Haworthia	truncata	IB		Van Wyskraal farm, 14 km E of Oudtshoorn	
 10708	IB 6611	Haworthia	truncata	IB		W of Dysseldorp	
 10709	IB 341	Haworthia	truncata	JIL		near Oudtshoorn	
@@ -94,7 +94,7 @@
 1072F	Beluga	Haworthia	truncata	Adam R.			
 10730	Kiganjou	Haworthia	truncata	Melanie W.			
 10731	Kyohou	Haworthia	truncata	Melanie W.			
-10732		Haworthia	truncata	Tanya < Nishi	Kurasa' x truncata		
+10732		Haworthia	truncata	Tanya < Nishi	Kurasa hybrid		
 10733	Platinum Ginban	Haworthia	truncata	Adam R. < Saki			
 10734	Dragon Gate	Haworthia	truncata	Adam R.			
 10735		Haworthia	truncata	Melanie W.			
@@ -107,14 +107,14 @@
 1073C	Thick White Jade  Fan	Haworthia	truncata	Sun Love			43PE765
 1073D	Kessaku	Haworthia	truncata	Adam R.			
 1073E	Ten Zen	Haworthia	truncata	Melanie W.			
-1073F		Haworthia	truncata	Tanya < SH (Japanese Seed)			Japenese seed
+1073F		Haworthia	truncata	Tanya < SH			Japenese seed
 10740		Haworthia	truncata	Soloman N. < Japan			
 10741	Blizzard	Haworthia	truncata	Adam R.			
 10742		Haworthia	truncata	Iryna			
 10743		Haworthia	truncata	Melanie W.			
 10744		Haworthia	truncata	Renny			
-10745	FST-188	Haworthia	truncata	Tanya	Kukuya' x truncata		
-10746		Haworthia	truncata	Melanie W.	Arashi' x truncata		
+10745	FST-188	Haworthia	truncata	Tanya	Kukuya hybrid		
+10746		Haworthia	truncata	Melanie W.	Arashi hybrid		
 10747		Haworthia	truncata	Matthew M. < Japan			
 10748	Ryumon	Haworthia	truncata	Kanouro			TC
 10749		Haworthia	truncata	Irving N.			
@@ -124,7 +124,7 @@
 10803	MBB	Haworthia	groenewaldii	JIL		Buffeljagsrivier, SW	
 10804	MBB	Haworthia	groenewaldii	JIL		near Buffeljagsrivier, TL	
 10805	GM 695	Haworthia	groenewaldii	JIL		near Buffeljagsrivier, TL (GM selected plants)	
-10806		Haworthia	groenewaldii	Haworthialand	Mullermus, Buffeljagsrivier		
+10806		Haworthia	groenewaldii	Haworthialand		Mullermus, Buffeljagsrivier	
 10901	GM 618	Haworthia	picta aff.	IB		Aasvoelsvallei, NW of Herbertsdale	
 10A01	MBB 7032	Haworthia	quimutica	IB		Rietfontein	
 10A02	MBB 6650	Haworthia	quimutica	IB		Diepkloof, 1 km SE of Heidelberg	
@@ -132,26 +132,43 @@
 10B02	DMC 10246	Haworthia	esterhuizenii	IB		TL, E of Albertinia	
 10B03	GM 320	Haworthia	esterhuizenii	IB		Aasvoelberg, opposite Keurfontein siding, 10 km NNE of Albertinia	
 10B04	DP 94-01	Haworthia	esterhuizenii	IB		TL, E of Albertinia	
+10B05		Haworthia	esterhuizenii	C&D			
 10C01	MBB 6651	Haworthia	atrofusca	IB		3 km S of Riversdale	
 10D01	VDV 445	Haworthia	bayeri 'indigoa'	IB		E of Ezeljachtpoort, 28 km NEN of George	
 10D02	GM 578	Haworthia	bayeri 'indigoa'	JIL		Matjiesdrift	
 10E01	JDV 90/8	Haworthia	comptoniana	IB		Vaalkranz, W of Willowmore	
 10E02	IB 4502	Haworthia	comptoniana	IB		Willowmore	
 10E03	JDV 90/8	Haworthia	comptoniana	IB		Vaalkranz, W of Willowmore	
+10E04	KF 2282	Haworthia	comptoniana	KF			
 10F01	JDV 88/67	Haworthia	mirabilis v. sublineata	IB		S of Bredasdorp	
 10F02	WBB 088	Haworthia	mirabilis v. sublineata	IB		N of Bredasdorp	
 10F03	IB	Haworthia	mirabilis v. sublineata	JIL		Heuningberg	
 11001	IB 40826	Haworthia	truncata f. crassa	IB			
+11002	Z-4	Haworthia	truncata f. crassa	Tanya < Nishi			"congesta"
 11101	IB 25548	Haworthia	hybrid	IB	splendens (GM 452) x enigma (GM 412)		
-11102	IB 25537	Haworthia	hybrid	IB	Jupiter' x comptoniana (JDV 90/8)		
-11103	IB 24828	Haworthia	hybrid	IB	comptoniana x laeta 'Jupiter'		
+11102	IB 25537	Haworthia	hybrid	IB	Jupiter x comptoniana (JDV 90/8)		
+11103	IB 24828	Haworthia	hybrid	IB	comptoniana x laeta Jupiter		
 11104	IB 26251	Haworthia	hybrid	IB	enigma (GM 412) x groenewaldii (GM 695)		
-11105	IB 26260	Haworthia	hybrid	IB	picta v. tricolor (GM256) x 'Drew White'		
+11105	IB 26260	Haworthia	hybrid	IB	picta v. tricolor (GM256) x Drew White		
+11106		Haworthia	hybrid	Iryna	truncata x maughanii		
+11107		Haworthia	hybrid	Melanie W.	splendens x picta		pink, flat
+11108		Haworthia	hybrid	Melanie W.	splendens x picta		green, robust
+11109		Haworthia	hybrid	eBay	comptoniana x bayeri		
+1110A		Haworthia	hybrid	eBay	comptoniana x bayeri		
+1110B	Internet	Haworthia	hybrid	Tanya < Bill  Baker			
+1110C		Haworthia	hybrid	Sun Love	pygmaea x picta		
+1110D		Haworthia	hybrid	Kambroo			
+1110E		Haworthia	hybrid	Kris T.	splendens x badia		
+1110F		Haworthia	hybrid		Lombard Star hyb.		
+11110		Haworthia	hybrid	Kris T.	Shikinjoh x Black Knight		
+11111		Haworthia	hybrid	Kris T. < South Africa	splendens x pygmaea		
+11112		Haworthia	hybrid	Kambroo	Gensekai x picta		
+11113		Haworthia	hybrid	Kris T.	(Gensekai x splendens) x picta		
 11201	GM 685	Haworthia	chromutica	IB		Morning Star, S of Heidelberg	
 11301	GM 261	Haworthia	bayeri 'jadea'	IB		Eastern slopes of the Paardeberg, NW of Leeublad, Kammanassie Dam	
 11302	GM 264	Haworthia	bayeri 'jadea'	AHH (seed)		South of Oudtshoorn, Western Cape	
 11303	GM 264	Haworthia	bayeri 'jadea'	AHH (seed)		South of Oudtshoorn, Western Cape	
-11304	GM 261	Haworthia	bayeri 'jadea'	Haworthialand			
+11304	GM 261	Haworthia	bayeri 'jadea'	Haworthialand		Eastern slopes of the Paardeberg, NW of Leeublad, Kammanassie Dam	
 11401	GM 452	Haworthia	splendens	IB		W of Albertinia	
 11402	Natalie (GM 452)	Haworthia	splendens	Sun Love		W of Albertinia	
 11403		Haworthia	splendens	Melanie W.	(GM 452) x splendens		
@@ -160,10 +177,12 @@
 11406		Haworthia	splendens	Adam R. < Japan			"black" splendens
 11407		Haworthia	splendens	eBay:plantaseca			TC spec.
 11408		Haworthia	splendens	Clinton G.			
-11409	MBB 6751	Haworthia	splendens	Haworthialand			
+11409	MBB 6751	Haworthia	splendens	Haworthialand		Soutpan, W Albertinia	
+1140A	Hana Aoi	Haworthia	splendens	eBay			
 11501	ISI 1762	Haworthia	cooperi v. ikra	IB		Bolo Nature Reserve, NE of Stutterheim and N of Umgwali Reserve	
 11601	JDV 88/21	Haworthia	subretusa	IB		NW of Heidelberg	
 11701	MBB 6783	Haworthia	mirabilis v. mundula	IB		Mierkraal, SW of Bredasdorp	
+11702	Bat Wings	Haworthia	mirabilis v. mundula	C&D			
 11801	VDV 0136	Haworthia	acuminata	IB		6 km W of Vleesbaai, N of Johnsons Post	
 11802	VDV 136	Haworthia	acuminata	JIL		6 km W Vleesbaai, N Johnsons Post	
 11803	VDV 075	Haworthia	acuminata	JIL		Johnsons Post, Vleesbaai	
@@ -188,19 +207,33 @@
 12003	GM 256	Haworthia	picta v. tricolor	Kambroo		Rooiberg Pass, Western Cape, South Africa	
 12101	MBB	Haworthia	groenewaldii aff.	JIL		Buffeljagsrivier, W.	
 12201	MBB	Haworthia	mirabilis 'hammeri'	JIL		Die Kop, E	
-12202	MBB 7500	Haworthia	mirabilis 'hammeri'	Haworthialand	Die Kop East, Wydgelee		
+12202	MBB 7500	Haworthia	mirabilis 'hammeri'	Haworthialand		Die Kop East, Wydgelee	
 12301	GM 703	Haworthia	mirabilis 'joleneae'	JIL		near Melkhoutrivier	
 12401	MBB	Haworthia	mirabilis v. beukmannii	JIL		Schuitsberg	
 12501	MBB	Haworthia	heidelbergensis	JIL		Die Plotte, W Heidelberg	
 12502	GM	Haworthia	heidelbergensis	JIL		Just E Heidelberg	
 12601	MBB 6631	Haworthia	mirabilis 'mundula'	JIL		Miekraal, SW Bredasdorp	
-12701	JDV 90/1	Haworthia	retusa 'nigra'	JIL		Diepkloof, E Heidelberg	
+12701	JDV 90/1	Haworthia	retusa v. nigra	JIL		Diepkloof, E Heidelberg	
 12801	JDV 84/15	Haworthia	pygmaea	JIL		Great Brakrivier	
-12802	DMC 09961	Haworthia	pygmaea	Haworthialand			
+12802	DMC 09961	Haworthia	pygmaea	Haworthialand		Mossgass	
+12803	KF 2276	Haworthia	pygmaea	KF			
+12804	KF 1868	Haworthia	pygmaea	KF			
+12805	KF 2181	Haworthia	pygmaea	KF			
+12806	KF 3297	Haworthia	pygmaea	KF			
+12807	KF 2045	Haworthia	pygmaea	KF			
+12808	KF 2042	Haworthia	pygmaea	KF			
+12809	KF 1871	Haworthia	pygmaea	KF			
+1280A	JDV 84/15	Haworthia	pygmaea	KF		Western outskirts of Great Brak River Village	
+1280B	KF 2047	Haworthia	pygmaea	KF			
+1280C		Haworthia	pygmaea	C&D			
+1280D		Haworthia	pygmaea	Tee Dee			
+1280E		Haworthia	pygmaea	Tanya			
 12901	GM	Haworthia	magnifica/maraisii	JIL		Morning Star	
 12A01	GM 745	Haworthia	magnifica/retusa 'vernalis'	JIL		Kruisrivier	
 12B01	GM	Haworthia	pygmaea 'asperata'	JIL		Kranshoek, Herbetsdale	
 12C01	EA 1200	Haworthia	pygmaea v. argenteo-maculosa	JIL		W Mosselbay	
+12C02	KF 1869	Haworthia	pygmaea v. argenteo-maculosa	KF			
+12C03	GM 325	Haworthia	pygmaea v. argenteo-maculosa	eBay		"Mossgas" W. of Mossel Bay	
 12D01	Murasaki	Haworthia	maughanii	Melanie W.			
 12D02	Yuki Guni	Haworthia	maughanii	Lyndsey			
 12D03	Tenshi	Haworthia	maughanii	Kanouro			TC
@@ -221,7 +254,7 @@
 12D12		Haworthia	maughanii	Melanie W.			
 12D13		Haworthia	maughanii	Tanya			
 12D14		Haworthia	maughanii	eBay:nicolaus361			
-12D15		Haworthia	maughanii	Adam R.	Inazuma' x maughanii		
+12D15		Haworthia	maughanii	Adam R.	Inazuma hybrid		
 12D16		Haworthia	maughanii	eBay:greenplants2018			
 12D17		Haworthia	maughanii	Melanie W.			
 12D18		Haworthia	maughanii	Melanie W.			
@@ -230,18 +263,35 @@
 12D1B		Haworthia	maughanii	Tanya < Nishi			Large Grower
 12E01	D-Light	Haworthia	badia	Iryna			
 12F01	KG 386/70	Haworthia	cooperi v. truncata	Kambroo			
-13001	Z-4	Haworthia	truncata v. crassa	Tanya < Nishi			"congesta"
-13101		Haworthia	maughanii hyb.	eBay			
-13201		Haworthia	"truncanii"	Iryna	truncata x maughanii		
-13301		Haworthia	splendens hyb.	Clinton G.			light green
-13302		Haworthia	splendens hyb.	Clinton G.			similar to 'chestnut'
-13401		Haworthia	"splendicta"	Melanie W.	splendens x picta		pink, flat
-13402		Haworthia	"splendicta"	Melanie W.	splendens x picta		green, robust
-13501		Haworthia	picta hyb.	Clinton G.			
-13601	IB 08971	Haworthia	fusca	Haworthialand			
-13602	IB 08971	Haworthia	fusca	Haworthialand			
-13701	GM 584	Haworthia	kingiana	Haworthialand			
-13801	GGS 5489	Haworthia	dekenahii	Haworthialand			
+13001		Haworthia	maughanii hyb.	eBay			
+13101		Haworthia	splendens hyb.	Clinton G.			light green
+13102		Haworthia	splendens hyb.	Clinton G.			similar to 'chestnut'
+13201		Haworthia	picta hyb.	Clinton G.			
+13301	IB 08971	Haworthia	fusca	Haworthialand		W of Paulsfontein	
+13302	IB 08971	Haworthia	fusca	Haworthialand		W of Paulsfontein	
+13401	GM 584	Haworthia	kingiana	Haworthialand		Rooiheuwel, N. Klein Brakrivier	
+13501	GGS 5489	Haworthia	dekenahii	Haworthialand		Draaihoek, N of Albertinia	
+13601	KF 2277	Haworthia	pygmaea hyb.	KF			
+13602	KF 2272	Haworthia	pygmaea hyb.	KF			
+13603	KF 2274	Haworthia	pygmaea hyb.	KF			
+13604	KF 2373	Haworthia	pygmaea hyb.	KF			
+13605	KF 1870	Haworthia	pygmaea hyb.	KF			
+13606	KF 2271	Haworthia	pygmaea hyb.	KF			
+13607	KF 2275	Haworthia	pygmaea hyb.	KF			
+13608		Haworthia	pygmaea hyb.	Lyndsey			proliferative, papillous
+13609		Haworthia	pygmaea hyb.	Lyndsey			papillous
+1360A		Haworthia	pygmaea hyb.	Lyndsey			more smooth
+1360B	KF 2270	Haworthia	pygmaea hyb.	KF			
+13701	KF 2268	Haworthia	magnifica hyb.	KF			
+13801	GM 768	Haworthia	asperata aff.	Kambroo		Towerlands, W of Herbertsdale	
+13901		Haworthia	acuminata hyb.	Costa Plants			
+13A01	BOB	Haworthia	beaukmanii	Sun Love			
+13B01		Haworthia	Beukmanii hyb.	Lyndsey			
+13C01		Haworthia	mirabilis 'bobii'	Amy Qui			
+13C02	MBB7248	Haworthia	mirabilis 'bobii'	Kambroo			
+13D01		Haworthia	magnifica aff.	Kris T.			
+13E01		Haworthia	retusa hyb.	Cary			
+13F01	Chestnut	Haworthia	splendends	Kris T.			
 20101	IB 8580	Haworthiopsis	nigra	IB		Immediately E of Adelaide	
 20201	IB 6551	Haworthiopsis	coarctata	IB		8 km NW of Kasouga, on road from Kariega to Port Alfred	
 20202	DMC 8514	Haworthiopsis	coarctata	IB		top of Swartwaterpoort, 4 km NW of road to Alicedale	
@@ -253,7 +303,7 @@
 20502		Haworthiopsis	sordida	Kambroo		Blueciff, Eastern Cape, South Africa	
 20601	RIB056	Haworthiopsis	granulata	eBay		Verlatekloof, SW Sutherland	
 30101	JIL	Astroloba	tenax	JIL		W. Vrischgewaagd	
-40101	GM 679	Gasteria	brachyphylla var. bayeri	JIL		Rouxpos	
+40101	GM 679	Gasteria	brachyphylla v. bayeri	JIL		Rouxpos	
 40201	IB 13594	Gasteria	bicolor	JIL		Bluewater Bay	
 40301	CG	Gasteria	batesiana	JIL		Barberton	
 40401	Samurai	Gasteria	carinata	eBay			

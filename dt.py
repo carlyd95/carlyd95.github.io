@@ -1,17 +1,18 @@
 #!/usr/bin/python
 
 import urllib2
-import datetime
+from datetime import datetime, timedelta
 
-hoy = datetime.datetime.now().strftime("%Y/%m/%d:%A/%B/%d")
+hoy = datetime.now().strftime("%Y/%m/%d:%A/%B/%d")
 day = hoy.split(':')
+lastmonth = datetime.strftime(datetime.now() - timedelta(1), '%B')
 
 resp = urllib2.urlopen("https://wol.jw.org/en/wol/dt/r1/lp-e/" + day[0]).read()
 
 rmdr = ''
 rmdrday = day[1].split('/')
 if int(rmdrday[2]) == 1:
-	rmdr = '\n<b>Have you turned your time in for the month of ' + rmdrday[1] + '?</b>'
+	rmdr = '\n<b>Have you turned your time in for the month of ' + lastmonth + '?</b>'
 
 html = "<center>\n" + resp.split('Examining the Scriptures Daily\xe2\x80\x94' + day[0].split('/')[0] + '\n                </div>\n            </div>\n    \n            <div class="cardTitleDetail"></div>\n    \n            <div class="cardChevron">\n                <div class="icon"></div>\n            </div>\n    \n            </a>\n    \n                        </div>\n                                    </div>\n                                    ')[1].split('</div>\n                            </div>\n                    <div class="todayItem today')[0].replace('<a href=', '<a style="color:#808080" href=') + rmdr + "\n</center>"
 
