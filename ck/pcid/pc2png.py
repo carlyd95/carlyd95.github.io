@@ -37,8 +37,8 @@ for plant in f:
 		qrc = qrc.resize([109,109], Image.ANTIALIAS)
 		img = Image.new('RGB', (900, 150), color = 'white')
 		d = ImageDraw.Draw(img)
-		font = ImageFont.truetype('VeraMoBd.ttf', 38)
-		d.text((140, 13), sp.upper() + '\n' + cv.upper() + '\nCK ' + cn, fill=(0,0,0), font=font)
+		font = ImageFont.truetype('myriadpro/MYRIADPRO-BOLDCOND.OTF', 46)
+		d.text((148, 16), sp.upper() + '\n' + cv.upper() + '\nCK ' + cn, fill=(0,0,0), font=font)
 		img.paste(qrc, (20, 20))
 		img.save(filename.replace(' ', ''), 'PNG')
 	cndir = '/home/pi/git/ck/pc/' + cn

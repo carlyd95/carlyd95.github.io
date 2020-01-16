@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <lang="en-US">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style type="text/css">
+    * {
+      font-family: Verdana;
+      text-decoration:none;
+      margin:0vw;
+    }
+    nav {
+      background:lightgray;
+      font-size:4vw;
+      font-weight: bold;
+      overflow:hidden;
+      text-align:center;
+      top:0;
+      width:100%;
+      height:7vw;
+    }
+    .left {
+    float:left;
+    height: 100%;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    margin-left:2vw;
+    width:0vw;
+
+    }
+    #navtab {
+      align-items:center;
+      color:dimgray;
+      font-size:3vw;
+      font-weight:bold;
+    }
+
+    #intro {
+      margin-top:12vw;
+    }
+    
+    .mid {
+    display:flex;
+    align-items:center;
+    height: 100%;
+    width:80%;
+    margin: 0 auto;
+    justify-content: center;
+    }
+    header {
+      margin-left:1vw;
+    }
+
+    #logo {
+      height: 6vw;
+    }
+    .cont {
+        border:solid dimgray 0.1vw;
+        margin:4vw;
+  background: white;
+        border-radius:0.5vw;
+        padding-bottom: 0
+        }
+    .cont h2 {
+      border-radius:0.5vw 0.5vw 0vw 0vw;
+      background:lightgray;
+      padding: 0.5vw;
+      font-size:2vw;
+      text-align:center;
+        }
+    .cont p {
+      padding:2vw;
+      font-size: 2vw
+    }
+    .sidenav {
+  height:0;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 7vw;
+  left: 0;
+  align-items:center;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  transition: 0.6s;
+  padding-top: 0px;
+  text-align:center;
+  background-color: white;
+  box-shadow: 0 4vw 7vw -3vw black;
+  border-top:0.1vw solid dimgray;
+}
+
+.sidenav a {
+  margin-top:2vw;
+  margin-bottom:2vw;
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: dimgray;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover{
+  color: lightsteelblue;
+}
+
+.sidenav hr {
+border:0;
+height:0.2vw;
+background:dimgray;
+}
+
+.me {
+  text-align:center;
+}
+
+#me {
+  margin:1vw;
+  margin-bottom:0vw;
+  width:20vw;
+  object-fit:cover;
+  border-radius: 50%;
+  border: 1vw solid lightgray;
+}
+
+#ig {
+  padding:1vw;
+}
+
+
+
+/* @media screen and (max-height: 800px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
+  </style>
+
+<script>
+
+          function getAge(DOB) {
+    var today = new Date();
+    var birthDate = new Date(DOB);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age = age - 1;
+    }
+
+    return age;
+}
+
+
+                function autoNav() {
+      if (document.getElementById("mySidenav").clientHeight > 0) {
+       document.getElementById("mySidenav").style.height = "0%";
+       document.getElementById("nav").style.position = "static";
+       document.getElementById("body").style.overflow = "scroll";
+       document.getElementById("mySidenav").style.borderBottom = "0 solid dimgray";
+
+      } else {
+                document.getElementById("mySidenav").style.height = "50%";
+                document.getElementById("nav").style.position = "sticky";
+                document.getElementById("body").style.overflow = "hidden";
+                document.getElementById("mySidenav").style.borderBottom = "0.1vw solid dimgray";
+
+      }
+        }
+
+        var age = getAge("8/29/1995");
+</script>
+
+</head>
+
+<body id="body">
+ 
+  <nav id="nav">
+    <div class="left"
+      onclick="autoNav()"><span id="navtab">≡</span>
+    </div>
+    <div class="mid">
+      <img id="logo" src="/depics/images/cklogo/ck@2x.png">
+      <header>Carlton's Karoo</header>
+    </div>
+  </nav>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#/">Home</a><hr>
+  <a href="#">Plants</a><hr>
+  <a href="#">Seeds</a><hr>
+  <a href="#">Cart</a><hr>
+  <a href="#">Cultivation Resources</a><hr>
+  <a href="#">Germination Tips</a><hr>
+  <a href="#">Plantstagram</a><hr>
+  <a href="#">Brews</a><hr>
+  <a href="#">Contact</a>
+</div>
+
+
+<article class="cont" id="meat">
+<h2>Biography</h2>
+<div class="me">
+  <img id="me" src="depics/images/repoLogo.real.png">
+</div>
+<p>Hey, my name is Carlton Dunlap. I am <script>document.write(age);</script> years old and I currently work at a local hospital as a Nursing Assistant. Additionally I am currently working towards a database development certificate. Growing up I have found life to be filled with so many interesting activities. A few hobbies that I currently enjoy include playing the guitar and singing, homebrewing beer, and most collecting and cultivating various cacti and succulent genera. Most notably I cultivate Haworthia a vastly diverse compact genus from SA. It is my hope that at some point in the future will be able to use this website as an avenue of sharing my love of these beautiful plants in the form of pictures and oppotunities to buy non-TC offsets, seeds and seed-grown plants. I also plan to host my homebrew recipes here.</p>
+</article>
+<article class="cont" id="meat">
+<h2>Plantstagram</h2>
+<figure id="ig">
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+  <iframe src="https://cdn.lightwidget.com/widgets/5953e330124f5bc9aa39df4b3ee7354a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe></figure>
+
+</article>
+<article class="cont" id="meat">
+<h2>bluh</h2>
+<p>blehh.</p>
+</article>
+
+
+</body>
+</html>

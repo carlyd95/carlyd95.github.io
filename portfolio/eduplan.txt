@@ -1,0 +1,27 @@
+"Quality > Quantity"
+
+
+Languages:
+	
+	HTML
+	CSS
+	JavaScript
+	Python
+		selenium
+		django vs. flask vs. pyramid
+	Java
+
+Portfolio:
+	
+	carltons-karoo.com
+	pc2label.py
+	
+Ideas for Portfolio:
+
+	something with a db (perhaps a rewrite of pc2label.py)
+	additional website work for a friend
+	potentially redo Bobby's website
+	
+
+https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/
+https://uxplanet.org/ux-ui-portfolio-projects-for-beginners-2-ecommerce-site-13199de34199

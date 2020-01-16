@@ -1,113 +1,237 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>
-		Carlton's Karoo
-		</title>
-		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0", charset="UTF-8">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="/depics/css/layoutNew.css">
-		<link rel="icon" href='depics/images/cklogo/ck.png' type='image/png' />
-	</head>
-	<body>
-		
-		<!-- Sidebar -->
-<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
-  <h1 class="w3-bar-item">Carlton's Karoo</h1>
-  <a href="/" class="w3-bar-item w3-button">Home</a>
-  <a href="carltons-karoo/bio.html" class="w3-bar-item w3-button">Biography</a>
-  <a href="/plants" class="w3-bar-item w3-button">Plants</a>
-  
-  <button class="dropdown-btn w3-bar-item">Plants 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="w3-bar-item">
-    <a href="#">Asphodelaceae</a>
-    <a href="#">Membryanthemum</a>
-    <a href="#">Cactaceae</a>
-  </div>
+<head>
+  <meta charset="utf-8">
 
-  <a href="/seeds" class="w3-bar-item w3-button">Seeds</a>
-  <a href="carltons-karoo/germtips.html" class="w3-bar-item w3-button">Germination Tips</a>
-  <a href="carltons-karoo/resources.html" class="w3-bar-item w3-button">Useful Resources</a>
-  <a href="mailto: dcarltondunlap@gmail.com" class="w3-bar-item w3-button">Contact</a>
-  <hr>
-  <a href="/beer" class="w3-bar-item w3-button">C & D Brews</a>
-  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://carltons-karoo.com/other/repo/" class="w3-bar-item w3-button">Cydia Repo</a>
-  <a href="KaraokeList.csv" class="w3-bar-item w3-button">Karaoke List</a>
+  <lang="en-US">
 
+  <title>
+    Carlton's Karoo: Succulent Plants & Seeds
+  </title>
+    
+    <meta name="description" content="Carlton's Karoo is a modest succulent nursery, primarily focused on Haworthia. We are your Haworthia experts!">
+
+    <meta name="keywords" content="succulents,nursery,Haworthia,Gasteria,Haworthiopsis,Tulista,carlton's,karoo,carltons-karoo,carltons_karoo,Carlton Dunlap,seeds">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href='depics/images/cklogo/ck.png' type='image/png' />
+
+  <style type="text/css">
+    * {
+      font-family: Verdana;
+      text-decoration:none;
+      margin:0;
+    }
+    nav {
+      background:lightgray;
+      font-size:4vw;
+      font-weight: bold;
+      overflow:hidden;
+      text-align:center;
+      top:0;
+      width:100%;
+      height:7vw;
+    }
+    .left {
+      float:left;
+      height: 100%;
+      text-align:center;
+      display:flex;
+      align-items:center;
+      margin-left:2vw;
+      width:0;
+
+    }
+    #navtab {
+      align-items:center;
+      color:dimgray;
+      font-size:3vw;
+      font-weight:bold;
+    }
+
+    #intro {
+      margin-top:12vw;
+    }
+    
+    .mid {
+      display:flex;
+      align-items:center;
+      height: 100%;
+      width:80%;
+      margin: 0 auto;
+      justify-content: center;
+    }
+
+    header {
+      margin-left:1vw;
+    }
+
+    #logo {
+      height: 6vw;
+    }
+
+    .cont {
+        border:solid dimgray 0.1vw;
+        margin:4vw;
+        background: white;
+        border-radius:0.5vw;
+        padding-bottom: 0;
+    }
+
+    .cont h2 {
+      border-radius:0.5vw 0.5vw 0vw 0vw;
+      background:lightgray;
+      padding: 0.5vw;
+      font-size:2vw;
+      text-align:center;
+    }
+
+    .cont p {
+      padding:2vw;
+      font-size: 2vw;
+    }
+
+    .sidenav {
+      height:0;
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      top: 7vw;
+      align-items:center;
+      overflow-x: hidden;
+      transition: 0.6s;
+      padding:0;
+      text-align:center;
+      background-color: white;
+      box-shadow: 0 4vw 7vw -3vw black;
+      border-top:0.1vw solid dimgray;
+    }
+
+    .sidenav a {
+      margin:3vw;
+      text-decoration: none;
+      font-size: 2vw;
+      color: dimgray;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: lightsteelblue;
+    }
+
+    .sidenav hr {
+      border-bottom:0;
+      border-top: 0.1vw solid dimgray;
+      border-style:solid;
+    }
+
+    .me {
+      text-align:center;
+    }
+
+    #me {
+      margin:1vw;
+      margin-bottom:0;
+      width:20vw;
+      object-fit:cover;
+      border-radius: 50%;
+      border: 1vw solid lightgray;
+    }
+
+    #ig {
+      margin:1vw;
+    }
+
+/*  @media screen and (max-height: 600px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
+
+  </style>
+
+<script>
+
+          function getAge(DOB) {
+    var today = new Date();
+    var birthDate = new Date(DOB);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age = age - 1;
+    }
+
+    return age;
+    }
+
+
+                function autoNav() {
+      if (document.getElementById("mySidenav").clientHeight > 0) {
+       document.getElementById("mySidenav").style.height = "0%";
+       document.getElementById("nav").style.position = "static";
+       document.getElementById("body").style.overflow = "scroll";
+       document.getElementById("mySidenav").style.borderBottom = "0 solid dimgray";
+
+      } else {
+                document.getElementById("mySidenav").style.height = "45%";
+                document.getElementById("nav").style.position = "sticky";
+                document.getElementById("body").style.overflow = "hidden";
+                document.getElementById("mySidenav").style.borderBottom = "0.1vw solid dimgray";
+
+      }
+        }
+
+        var age = getAge("8/29/1995");
+
+</script>
+
+</head>
+
+<body id="body">
+ 
+  <nav id="nav">
+    <div class="left"
+      onclick="autoNav()"><span id="navtab">≡</span>
+    </div>
+    <div class="mid">
+      <img id="logo" src="/depics/images/cklogo/ck@2x.png">
+      <header>Carlton's Karoo</header>
+    </div>
+  </nav>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#/">Home</a><hr>
+  <a href="#">Plants</a><hr>
+  <a href="#">Seeds</a><hr>
+  <a href="#">Cart</a><hr>
+  <a href="#">Cultivation Resources</a><hr>
+  <a href="#">Germination Tips</a><hr>
+  <a href="#">Plantstagram</a><hr>
+  <a href="#">Brews</a><hr>
+  <a href="#">Contact</a>
 </div>
 
 
- 
-		<div class="outer">
-		<div class="middle">
-		<div id="container">
-			
+<article class="cont" id="meat">
+<h2>Biography</h2>
+<div class="me">
+  <img id="me" src="depics/images/repoLogo.real.png">
+</div>
+<p>Hey, my name is Carlton Dunlap. I am <script>document.write(age);</script> years old and I currently work at a local hospital as a Nursing Assistant. Additionally I am currently working towards a database development certificate. Growing up I have found life to be filled with so many interesting activities. A few hobbies that I currently enjoy include playing the guitar and singing, homebrewing beer, and most collecting and cultivating various cacti and succulent genera. Most notably I cultivate Haworthia a vastly diverse compact genus from SA. It is my hope that at some point in the future will be able to use this website as an avenue of sharing my love of these beautiful plants in the form of pictures and oppotunities to buy non-TC offsets, seeds and seed-grown plants. I also plan to host my homebrew recipes here.</p>
+</article>
+<article class="cont" id="meat">
+<h2>Plantstagram</h2>
+<figure id="ig">
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+  <iframe src="https://cdn.lightwidget.com/widgets/5953e330124f5bc9aa39df4b3ee7354a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe></figure>
 
-			<div id="contentSingleTop">
+</article>
+<article class="cont" id="meat">
+<h2>bluh</h2>
+<p>blehh.</p>
+</article>
 
-<!-- Page Content -->
-<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
 
-<div>
-  <button class="btn:hover btn" onclick="w3_open()">&#9776;</button>
-
-				<img class="image" src="depics/images/cklogo/ck.png">
-				<h2
-class="repoDescriptionHeader">
-				<center>
-				Carlton&apos;s<br>Karoo</h2>
-				</center>
-			</div><!--Close Package Header Div-->
-		</div>
-			<div id="contentSingle">
-				<h3 class="textHeaderLabel">Introduction</h3>
-			</div>
-			<div id="contentBottom">
-						<p>Hey, my name is Carlton. And put quite simply... I. Love. Plants. Some beloved genera include: Haworthia, Tulista, Haworthiospsis, Gasteria, Bulbine, Lithops, Stapeliads, Euphorbia, Adromischus, Ariocarpus, Astrophytum, Gymnocalycium, Lophophora, Trichocereus. I intend to use this website as an avenue to share with others the opportunity to grow the plants that I find so interesting.</p>
-			</div>
-			<div id="contentSingle">
-                                <h3 class="textHeaderLabel">Plantstagram</h3>
-                        </div>
-                        <div id="contentBottom">
-<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/900bbe27c2905b3c8f2e081812e0f82c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-			</div>
-			</div><!--Close Container Div-->
-			</div>
-			</div>
-
-<script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
-<script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
-</script>
-
-	</body>
-	
+</body>
 </html>
