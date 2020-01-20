@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>
+    	Carlton&apos;s Karoo
+	</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Carlton's Karoo is a modest succulent plant nursery focused on the cultivation of Haworthia.">
+    <meta name="keywords" content="succulents,nursery,Haworthia,Gasteria,Haworthiopsis,Tulista,carlton's,karoo,carltons-karoo,carltons_karoo,Carlton Dunlap,seeds">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=dLnoeWknN6">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=dLnoeWknN6">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=dLnoeWknN6">
+	<link rel="manifest" href="/images/site.webmanifest?v=dLnoeWknN6">
+	<!-- <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=dLnoeWknN6" color="#076c5b"> -->
+	<link rel="shortcut icon" href="/images/favicon.ico?v=dLnoeWknN6">
+	<meta name="apple-mobile-web-app-title" content="CK">
+	<meta name="application-name" content="CK">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="msapplication-config" content="/images/browserconfig.xml?v=dLnoeWknN6">
+	<meta name="theme-color" content="#ff0000">
+
+	<style>
+
+		* {
+			margin: 0;
+			text-decoration: none;
+			font-family: Verdana;
+			padding: 0;
+		}
+
+		header {
+			background: lightgray;
+		}
+
+		.alignleft {
+			float: left;
+			width: 20%;
+			
+			margin-left:2vw;
+			margin-top:0.5vw;
+		}
+
+		.alignleft main {
+			float: left;
+			width: auto;
+			font-size: 5vw;
+			color: dimgray;
+			cursor: pointer;
+			font-weight: bold;
+		}
+
+		.center {
+			overflow: hidden;
+			margin: 0 20%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.center img {
+			height: 6vw;
+			padding: 1vw;
+		}
+
+		.center h1 {
+			cursor: default;
+			font-size: 4vw;
+		}
+
+		.alignright {
+			float: right;
+			width: 20%;
+			text-align: right;
+			margin: 1vw;
+			margin-left: 2vw;
+		}
+
+		nav {
+			height: 0;
+			width: 100%;
+			align-items: center;
+			overflow: hidden;
+			transition: 0.6s;
+			text-align: center;
+			box-shadow: 0 4vw 10vw -3vw black;
+			position: absolute;
+			background: white;
+		}
+
+		nav a {
+			display: block;
+			margin: 3vw;
+			font-size: 2.5vw;
+			color: dimgray;
+			transition: 0.3s;
+			margin: 4vw 4vw;
+		}
+
+		nav a:hover {
+			color: lightsteelblue;
+		}
+
+		hr {
+			margin: 0 6vw 0 6vw;
+			display: block; height: 0.5px;
+    			border: 0; border-top: 0.5px solid dimgray !important;;
+    		}
+
+
+		.cont {
+			border:solid dimgray 0.1vw;
+			margin: 4vw;
+			background: white;
+			border-radius: 0.5vw;
+			padding-bottom: 0;
+		}
+
+		.cont h2 {
+			border-radius: 0.5vw 0.5vw 0vw 0vw;
+			background: lightgray;
+			padding: 0.5vw;
+			font-size: 2vw;
+			text-align: center;
+		}
+
+		.cont p {
+			padding: 2vw;
+			font-size: 2vw;
+		}
+
+		.bio {
+			text-align: center;
+		}
+
+		.bio img {
+			margin: 1vw;
+			margin-bottom: 0;
+			width: 40vw;
+			object-fit: cover;
+			border-radius: 50%;
+			border: 1vw solid lightgray;
+		}
+
+		#ig {
+			margin: 1vw;
+			height: 100%;
+		}
+
+		/*  @media screen and (max-height: 600px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}
+		} */
+
+	</style>
+
+	<script>
+				function autoNav() {
+		if (document.getElementById("dropNav").clientHeight <= 0) {
+			document.getElementById("dropNav").style.height = "50%";
+		    //document.getElementById("topBar").style.position = "sticky";
+		    document.getElementById("dropNav").style.overflow = "scroll";
+		    document.getElementById("body").style.overflow = "hidden";
+			// document.getElementById("mySidenav").style.borderBottom = "0 solid dimgray";
+
+		} else if (document.getElementById("dropNav").clientHeight > 0){
+			document.getElementById("dropNav").style.height = "0"; 
+			//document.getElementById("topBar").style.position = "static";
+			document.getElementById("body").style.overflow = "visible";
+			document.getElementById("dropBar").style.overflow = "hidden";
+		    // document.getElementById("mySidenav").style.borderBottom = "0.1vw solid dimgray";
+
+			}
+		}
+
+		      function getAge(DOB) {
+	    var today = new Date();
+	    var birthDate = new Date(DOB);
+	    var age = today.getFullYear() - birthDate.getFullYear();
+	    var m = today.getMonth() - birthDate.getMonth();
+	    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+	        age = age - 1;
+	    	}	
+
+	    return age;
+	    }
+
+	    var age = getAge("8/29/1995");
+
+	</script>
+</head>
+<body id="body">
+	<header id="topBar">
+		<main class ="alignleft">
+			<main onclick="autoNav()">
+				≡
+			</main>
+		</main>
+		<!-- <main class="alignright"></main> -->
+		<main class="center">
+			<img id="logo" src="/depics/images/cklogo/ck@2x.png" alt="CK logo" title="CK logo">
+			<h1>
+				Carlton&apos;s Karoo
+			</h1>
+		</main>
+	</header>
+
+	<nav id="dropNav">
+		<a href="#1">Home</a><hr>
+		<a href="#2">Plants</a><hr>
+		<a href="#3">Seeds</a><hr>
+		<a href="#4">Cart</a><hr>
+		<a href="#5">Cultivation Resources</a><hr>
+		<a href="#6">Germination Tips</a><hr>
+		<a href="#7">Plantstagram</a><hr>
+		<a href="/beer">Brews</a><hr>
+		<a href="#9">Contact</a>
+	</nav>
+	<article class="cont">
+		<h2>Biography</h2>
+		<figure class="bio">
+			<img src="depics/images/selfie.jpg" alt="portrait" title="Carlton Dunlap">
+		</figure>
+		<p>My name is Carlton Dunlap. I am <script>document.write(age);</script> years old and I currently work at a local hospital as a Nursing Assistant. Additionally I am currently working towards a database development certificate. Growing up I have found life to be filled with so many interesting activities. A few hobbies that I currently enjoy include playing the guitar and singing, homebrewing beer, and most collecting and cultivating various cacti and succulent genera. Most notably I cultivate Haworthia a vastly diverse compact genus from SA. It is my hope that at some point in the future will be able to use this website as an avenue of sharing my love of these beautiful plants in the form of pictures and oppotunities to buy non-TC offsets, seeds and seed-grown plants. I also plan to host my homebrew recipes here.</p>
+	</article>
+
+	<article class="cont">
+		<h2>Plantstagram</h2>
+	  	<figure id="ig">
+	  		<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+	  		<iframe src="https://cdn.lightwidget.com/widgets/5953e330124f5bc9aa39df4b3ee7354a.html" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+		</figure>
+	</article>
+
+	<article class="cont">
+		<h2>Title</h2>
+		<p>content.</p>
+	</article>
+</body>
+</html>

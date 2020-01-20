@@ -1,0 +1,20 @@
+{
+    "name": "CK",
+    "short_name": "CK",
+    "icons": [
+        {
+            "src": "/images/android-chrome-192x192.png?v=yyQkmq8Rvb",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/android-chrome-512x512.png?v=yyQkmq8Rvb",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#4e5a66",
+    "background_color": "#4e5a66",
+    "start_url": "https://carltons-karoo.com",
+    "display": "standalone"
+}

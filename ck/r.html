@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>
+    	Carlton&apos;s Karoo
+	</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Carlton's Karoo is a modest succulent plant nursery focused on the cultivation of Haworthia.">
+    <meta name="keywords" content="succulents,nursery,Haworthia,Gasteria,Haworthiopsis,Tulista,carlton's,karoo,carltons-karoo,carltons_karoo,Carlton Dunlap,seeds">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=dLnoeWknN6">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=dLnoeWknN6">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=dLnoeWknN6">
+	<link rel="manifest" href="/images/site.webmanifest?v=dLnoeWknN6">
+	<!-- <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=dLnoeWknN6" color="#076c5b"> -->
+	<link rel="shortcut icon" href="/images/favicon.ico?v=dLnoeWknN6">
+	<meta name="apple-mobile-web-app-title" content="CK">
+	<meta name="application-name" content="CK">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="msapplication-config" content="/images/browserconfig.xml?v=dLnoeWknN6">
+	<meta name="theme-color" content="#ff0000">
+
+	<style>
+
+		* {
+			margin: 0;
+			text-decoration: none;
+			font-family: Verdana;
+			padding: 0;
+		}
+
+		header {
+			background: lightgray;
+			height: 10vw;
+			position:relative;
+		}
+
+		.alignleft {
+			float: left;
+			width: 20%;
+			height:100%;
+		}
+
+		.alignleft img {
+			float: left;
+			width: auto;
+			height: 4vw;
+			margin: 3vw;
+			cursor: pointer;
+		}
+
+		.center {
+			overflow: hidden;
+			margin: 0 20%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#logo {
+			filter: drop-shadow(0 0 0.1vw black);
+                        height: 8vw;
+                        padding: 1vw;
+		}
+
+		.center h1 {
+			cursor: default;
+			font-size: 4vw;
+		}
+
+		.alignright {
+			float: right;
+			width: 20%;
+			text-align: right;
+			margin: 1vw;
+			margin-left: 2vw;
+		}
+
+		nav {
+			height: 0;
+			width: 100%;
+			align-items: center;
+			overflow: hidden;
+			transition: 0.6s;
+			text-align: center;
+			/* box-shadow: 0 2vw 3vw -1vw black; */
+			position: absolute;
+			background: white;
+			border-bottom: 0.3vw solid lightgray;
+
+		}
+
+		.links {
+			margin:2vw;
+			font-size: 2.5vw;
+			color: dimgray;
+			transition: 0.3s;
+		}
+
+		nav a:hover {
+			color: lightsteelblue;
+		}
+
+		nav hr {
+			display:flex;
+			margin: 0 6vw 0 6vw;
+		}
+
+		nav main {
+			margin:2vw;
+		}
+
+		hr {
+			border: 0; 
+			border-top: 0.3vw solid lightgray !important;
+		}
+
+		body {	
+			background: lightslategray;
+		}
+
+
+		.cont {
+			background: white;
+			margin-top: 1vw;
+
+		}
+
+		.cont h2 {
+			padding: 0.5vw;
+			font-size: 2vw;
+			background: lightgray;
+			text-align: center;
+		}
+
+		.cont p {
+			padding: 3vw;
+			font-size: 2vw;
+		}
+
+		.bio {
+			text-align: center;
+		}
+
+		.bio img {
+			margin: 2vw;
+			margin-bottom: 0;
+			width:40vw;
+			object-fit: cover;
+			border-radius: 50%;
+			border: 1vw solid dimgray;
+		}
+
+		#ig {
+			padding:2vw;
+			height: 100%;
+		}
+
+		/*  @media screen and (max-height: 600px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}
+		} */
+
+	</style>
+
+	<script>
+				function autoNav() {
+		if (document.getElementById("dropNav").clientHeight <= 0) {
+			document.getElementById("dropNav").style.height = "50%";
+		    document.getElementById("dropNav").style.overflow = "scroll";
+		    document.getElementById("body").style.overflow = "hidden";
+		   
+
+		} else if (document.getElementById("dropNav").clientHeight > 0){
+			document.getElementById("dropNav").style.height = "0";
+			document.getElementById("body").style.overflow = "visible";
+			document.getElementById("dropBar").style.overflow = "hidden";
+
+			}
+		}
+
+		      function getAge(DOB) {
+	    var today = new Date();
+	    var birthDate = new Date(DOB);
+	    var age = today.getFullYear() - birthDate.getFullYear();
+	    var m = today.getMonth() - birthDate.getMonth();
+	    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+	        age = age - 1;
+	    	}	
+
+	    return age;
+	    }
+
+	    var age = getAge("8/29/1995");
+
+	</script>
+</head>
+<body id="body">
+
+	<header id="topBar">
+		<main class ="alignleft">
+			<img onclick="autoNav()" src="depics/images/tab.png" alt="navbar button">
+		</main>
+		<!-- <main class="alignright"></main> -->
+		<main class="center">
+			<img id="logo" src="/depics/images/cklogo/ck-no-shadow.png" alt="CK logo" title="CK logo">
+			<h1>
+				Carlton&apos;s Karoo
+			</h1>
+		</main>
+	</header>
+
+		<nav id="dropNav">
+		<main>
+			<a class="links" href="#1">Home</a>
+		</main>
+		<hr>
+		<main>
+			<a class="links" href="#2">Plants</a>
+		</main>
+		<hr>
+		<main>
+			<a class="links" href="#3">Seeds</a>
+		</main>
+		<hr>
+		<main>
+			<a class="links" href="#4">Cart</a>
+		</main>
+		<hr>
+		<main>
+			<a class="links" href="#5">Cultivation Resources</a>
+		</main>
+		<hr>
+		<main>
+			<a class="links" href="#6">Germination Tips</a>
+		</main>
+		<hr>
+		<main>
+			<a class="links" href="#7">Plantstagram</a>
+		</main>
+		<hr>
+		<main>
+			<a class="links" href="/beer">Brews</a>
+		</main>
+		<hr>
+		<main>
+			<a class="links" href="#9">Contact</a>
+		</main>
+	</nav>
+
+	<article class="cont">
+		<h2>Biography</h2>
+		<hr>
+		<figure class="bio">
+			<img src="depics/images/selfie.jpg" alt="portrait" title="Carlton Dunlap">
+		</figure>
+		<p>My name is Carlton Dunlap. I am <script>document.write(age);</script> years old and I currently work at a local hospital as a Nursing Assistant. Additionally I am currently working towards a database development certificate. Growing up I have found life to be filled with so many interesting activities. A few hobbies that I currently enjoy include playing the guitar and singing, homebrewing beer, and most collecting and cultivating various cacti and succulent genera. Most notably I cultivate Haworthia a vastly diverse compact genus from the southern cape of South Africa. It is my hope that at some point in the future will be able to use this website as an avenue of sharing my love of these beautiful plants in the form of pictures and oppotunities to buy non-TC offsets, seeds and seed-grown plants. I also plan to host my homebrew recipes here.</p>
+	</article>
+
+	<article class="cont">
+		<h2>Plantstagram</h2>
+		<hr>
+	  	<figure id="ig">
+	  		<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+	  		<iframe src="https://cdn.lightwidget.com/widgets/5953e330124f5bc9aa39df4b3ee7354a.html" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+		</figure>
+	</article>
+
+	<article class="cont">
+		<h2>Title</h2>
+		<hr>
+		<p>content.</p>
+	</article>
+</body>
+</html>
